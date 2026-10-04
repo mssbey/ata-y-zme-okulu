@@ -162,13 +162,20 @@ export function useReveal(deps: unknown[] = []) {
       return;
     }
     const io = new IntersectionObserver(
-      (entries) =>
+      (entries) => {
+        // Aynı anda görünen öğeler sırayla belirsin
+        let order = 0;
         entries.forEach((e) => {
           if (e.isIntersecting) {
-            e.target.classList.add('is-visible');
+            const el = e.target as HTMLElement;
+            el.style.setProperty('--reveal-delay', `${Math.min(order++, 5) * 90}ms`);
+            el.classList.add('is-visible');
+            // Gecikme sonraki hover geçişlerini yavaşlatmasın
+            window.setTimeout(() => el.style.removeProperty('--reveal-delay'), 1600);
             io.unobserve(e.target);
           }
-        }),
+        });
+      },
       { threshold: 0.08, rootMargin: '0px 0px -40px 0px' },
     );
     els.forEach((el) => io.observe(el));

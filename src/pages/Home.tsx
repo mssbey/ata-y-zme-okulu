@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { brand, faqGroups, pathway, programs, stats, values } from '../data/site';
 import { ArrowLink, CtaBand, Eyebrow, Icon, type IconName, Img, SectionHeading, usePageMeta } from '../components/ui';
@@ -10,6 +10,46 @@ const slides = [
 ];
 
 const valueIcons: IconName[] = ['shield', 'book', 'award', 'users', 'layers', 'eye'];
+
+/* Görünür olduğunda baştaki sayıyı sıfırdan sayar ("3+" → 0…3 + "+") */
+function CountUp({ value }: { value: string }) {
+  const [, target = '', suffix = value] = value.match(/^(\d+)(.*)$/) ?? [];
+  const [n, setN] = useState(target ? 0 : null);
+  const ref = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || !target) return;
+    if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setN(Number(target));
+      return;
+    }
+    let raf = 0;
+    const io = new IntersectionObserver(([e]) => {
+      if (!e.isIntersecting) return;
+      io.disconnect();
+      const start = performance.now();
+      const tick = (t: number) => {
+        const p = Math.min((t - start) / 1400, 1);
+        setN(Math.round(Number(target) * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) raf = requestAnimationFrame(tick);
+      };
+      raf = requestAnimationFrame(tick);
+    }, { threshold: 0.4 });
+    io.observe(el);
+    return () => {
+      io.disconnect();
+      cancelAnimationFrame(raf);
+    };
+  }, [target]);
+
+  return (
+    <span ref={ref}>
+      <span className="sr-only">{value}</span>
+      <span aria-hidden="true">{n ?? ''}{suffix}</span>
+    </span>
+  );
+}
 
 function Hero() {
   const [active, setActive] = useState(0);
@@ -33,8 +73,8 @@ function Hero() {
         <div className="home-hero-copy">
           <Eyebrow light>Yakacık Yüzme Havuzu · Kartal</Eyebrow>
           <h1 className="display-hero">
-            Her yaşta,<br />
-            <em>bilimsel</em> yüzme eğitimi.
+            <span className="line"><span>Her yaşta,</span></span>
+            <span className="line"><span><em>bilimsel</em> yüzme eğitimi.</span></span>
           </h1>
           <p>Türkiye Yüzme Federasyonu’na bağlı Ata Yüzme Spor Kulübü; minik yaştan yetişkinliğe, ilk kulaçtan lisanslı sporculuğa uzanan bir eğitim yolculuğu sunar.</p>
           <div className="btn-row">
@@ -104,7 +144,7 @@ export default function Home() {
         <div className="wrap stats-grid">
           {stats.map((s) => (
             <div className="stat reveal" key={s.label}>
-              <strong>{s.value}</strong>
+              <strong><CountUp value={s.value} /></strong>
               <span>{s.label}</span>
             </div>
           ))}

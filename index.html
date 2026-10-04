@@ -36,6 +36,55 @@
     </script>
   </head>
   <body>
+    <!-- Giriş animasyonu: oturum başına bir kez, React'ten bağımsız -->
+    <style>
+      #intro { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; background: #0a1a2b; color: #fff; overflow: hidden; transition: transform 0.9s cubic-bezier(0.76, 0, 0.24, 1); }
+      #intro.is-leaving { transform: translateY(-100%); }
+      #intro.is-leaving .intro-stage { opacity: 0; transform: translateY(-40px); transition: opacity 0.5s, transform 0.9s cubic-bezier(0.76, 0, 0.24, 1); }
+      .intro-stage { display: flex; align-items: center; gap: 22px; }
+      .intro-mark { position: relative; width: 104px; height: 104px; flex-shrink: 0; }
+      .intro-mark img { position: relative; width: 100%; height: 100%; border-radius: 50%; animation: intro-emblem 1s cubic-bezier(0.22, 0.61, 0.36, 1) both; }
+      .intro-ring { position: absolute; inset: 0; border: 1px solid rgb(22 146 216 / 0.6); border-radius: 50%; animation: intro-ring 2s cubic-bezier(0.22, 0.61, 0.36, 1) 0.4s infinite both; }
+      .intro-ring + .intro-ring { animation-delay: 1.1s; }
+      .intro-word { overflow: hidden; }
+      .intro-word img { width: 220px; height: auto; animation: intro-word 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) 0.55s both; }
+      .intro-line { position: absolute; left: 50%; bottom: 18%; width: 160px; height: 1px; margin-left: -80px; background: rgb(255 255 255 / 0.14); overflow: hidden; }
+      .intro-line::after { content: ''; position: absolute; inset: 0; background: #1692d8; transform-origin: left; animation: intro-line 1.6s cubic-bezier(0.65, 0, 0.35, 1) 0.2s both; }
+      .intro-wave { position: absolute; left: 0; right: 0; bottom: 0; height: 90px; opacity: 0.18; }
+      .intro-wave svg { width: 200%; height: 100%; animation: intro-wave 6s linear infinite; }
+      @keyframes intro-emblem { from { opacity: 0; transform: scale(0.6) rotate(-40deg); } }
+      @keyframes intro-ring { from { opacity: 1; transform: scale(1); } to { opacity: 0; transform: scale(2.2); } }
+      @keyframes intro-word { from { opacity: 0; transform: translateX(-30px); clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
+      @keyframes intro-line { from { transform: scaleX(0); } }
+      @keyframes intro-wave { to { transform: translateX(-50%); } }
+      @media (max-width: 600px) { .intro-stage { flex-direction: column; gap: 18px; } .intro-mark { width: 88px; height: 88px; } .intro-word img { width: 190px; } }
+    </style>
+    <div id="intro" aria-hidden="true">
+      <div class="intro-stage">
+        <div class="intro-mark">
+          <span class="intro-ring"></span><span class="intro-ring"></span>
+          <img src="/assets/ata-amblem.png" alt="" width="188" height="190" />
+        </div>
+        <div class="intro-word"><img src="/assets/ata-wordmark-light.svg" alt="" width="146" height="50" /></div>
+      </div>
+      <div class="intro-line"></div>
+      <div class="intro-wave">
+        <svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path fill="#1692d8" d="M0 45c90 0 90-30 180-30s90 30 180 30c90 0 90-30 180-30s90 30 180 30c90 0 90-30 180-30s90 30 180 30c90 0 90-30 180-30s90 30 180 30v45H0z"/></svg>
+      </div>
+    </div>
+    <script>
+      (function () {
+        var el = document.getElementById('intro');
+        var seen = false;
+        try { seen = sessionStorage.getItem('ata-intro') === '1'; sessionStorage.setItem('ata-intro', '1'); } catch (e) {}
+        if (seen || window.matchMedia('(prefers-reduced-motion: reduce)').matches) { el.remove(); return; }
+        var root = document.documentElement;
+        root.classList.add('has-intro');
+        root.style.overflow = 'hidden';
+        setTimeout(function () { el.classList.add('is-leaving'); root.style.overflow = ''; }, 1900);
+        setTimeout(function () { el.remove(); }, 2900);
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

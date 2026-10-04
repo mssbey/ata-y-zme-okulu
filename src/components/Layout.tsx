@@ -3,10 +3,10 @@ import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { brand, mapsLink, nav, programs, whatsapp } from '../data/site';
 import { Icon, Img, WhatsAppIcon, useReveal } from './ui';
 
-function Logo() {
+function Logo({ light }: { light?: boolean }) {
   return (
     <Link className="logo" to="/" aria-label={`${brand.name} — ana sayfa`}>
-      <img src="/assets/ata-logo.png" alt={brand.name} width={720} height={210} />
+      <img src={light ? '/assets/ata-logo-light.svg' : '/assets/ata-logo.svg'} alt={brand.name} width={200} height={52} />
     </Link>
   );
 }
@@ -65,10 +65,15 @@ function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
+  const progress = useRef<HTMLSpanElement>(null);
   const { pathname } = useLocation();
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 40);
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      progress.current?.style.setProperty('--progress', String(max > 0 ? Math.min(window.scrollY / max, 1) : 0));
+    };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
@@ -124,6 +129,7 @@ function Header() {
             </span>
           </button>
         </div>
+        <span ref={progress} className="scroll-progress" aria-hidden="true" />
       </div>
       <div id="mobile-menu" className={'mobile-menu' + (open ? ' is-open' : '')} hidden={!open}>
         <nav aria-label="Mobil menü">
@@ -160,7 +166,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="wrap footer-top">
         <div className="footer-brand">
-          <Logo />
+          <Logo light />
           <p>Türkiye Yüzme Federasyonu’na bağlı Ata Yüzme Spor Kulübü; Yakacık Yüzme Havuzu’nda her yaş grubuna bilimsel yüzme eğitimi sunar.</p>
           <p className="footer-slogan">“{brand.slogan}”</p>
         </div>
@@ -214,12 +220,13 @@ function ScrollManager() {
 
 export default function Layout() {
   useReveal();
+  const { pathname } = useLocation();
   return (
     <>
       <a className="skip-link" href="#main">İçeriğe geç</a>
       <ScrollManager />
       <Header />
-      <main id="main">
+      <main id="main" key={pathname} className="page-enter">
         <Outlet />
       </main>
       <Footer />
