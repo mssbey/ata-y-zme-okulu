@@ -53,33 +53,34 @@ taslaktır.
 
 ## Admin paneli
 
-Panel adresi: `/admin`. Sayfa metinleri, ortak içerikler, program bilgileri, SSS, galeri açıklamaları, fotoğraflar ve logolar panelden değiştirilebilir. Sayfa yapısı ve tasarım düzenlenmez. Aynı metnin/görselin ortak kullanıldığı alanlar birlikte güncellenir. Dosya yükledikten veya metin düzenledikten sonra **Değişiklikleri yayınla** düğmesine basın. **Orijinale dön**, alanı başlangıç içeriğine döndürür; bu değişiklik de yayınlanmalıdır.
+Panel adresi: `/admin`. Sayfa metinleri, SSS soru/cevapları, ortak içerikler, program bilgileri, galeri açıklamaları, fotoğraflar ve logolar düzenlenebilir. Sayfa yapısı ve tasarım korunur. **Değişiklikleri yayınla**, içeriği tüm ziyaretçiler için kaydeder. **Orijinale dön** ilgili alanı başlangıç içeriğine döndürür; bu değişiklik de yayınlanmalıdır.
 
 ### Yerel kullanım
 
-İki terminal açın:
+PHP 8+ kurulu ve PATH içinde olmalı. Tek komut hem yerel içerik API’sini hem Vite’ı başlatır:
 
 ```sh
-php -S 127.0.0.1:8081 -t public
 npm run dev
 ```
 
-Panel: `http://localhost:5173/admin`. Oluşturulan şifre kök klasördeki `admin-credentials.txt` dosyasındadır. Bu dosya ve `public/api/config.php` Git'e alınmaz. Şifreyi config dosyasından değiştirebilir veya sunucuda `ADMIN_PASSWORD` ortam değişkeni kullanabilirsiniz. Şifre eksikse panel girişe kapalıdır.
+Panel: http://localhost:5173/admin. Yerel şifre `admin-credentials.txt` dosyasındadır. Şifre `public/api/config.php` dosyasından veya `ADMIN_PASSWORD` ortam değişkeninden okunur. Şifre dosyaları Git’e eklenmez. İlk kurulumda `public/api/config.example.php` dosyasını `config.php` olarak kopyalayıp şifreyi girin.
 
-### Yayın ortamı
+### Vercel yayını
 
-Admin API'si PHP 8+ (fileinfo eklentisi) gerektirir. Apache/cPanel sunucusuna `npm run build` sonrası **dist klasörünün içeriğini** yükleyin. `dist/api/config.php` dosyasını ve `dist/api/.htaccess` dosyasını da yükleyin; HTTPS kullanın. `api/private` ve `uploads` klasörleri PHP tarafından yazılabilir olmalıdır. Apache erişim kuralları özel içerik dosyalarını ve şifre yapılandırmasını doğrudan indirmeye kapatır. Farklı web sunucusunda bu dizinleri ayrıca erişime kapatın.
+Yayındaki site Vercel projesi **ata** ile bağlıdır. `api/content.js` giriş, oturum, yayınlama ve yüklemeyi; `api/media.js` fotoğrafları sunar. **ata-content** adlı private Vercel Blob deposu metinleri ve fotoğrafları dağıtımlardan bağımsız saklar. Sunucuda `ADMIN_PASSWORD` ve `BLOB_READ_WRITE_TOKEN` ortam değişkenleri gerekir. Şifre istemci paketine konmaz.
 
-İçerik `api/private/content.json` içinde, yüklenen fotoğraflar `uploads` içinde kalıcı saklanır. Yeniden dağıtımda bu klasörlerin mevcut içeriğini koruyun ve yedekleyin. Yüklemeler 8 MB ile sınırlıdır; PHP `upload_max_filesize` ve `post_max_size` değerlerini buna göre ayarlayın. SVG yükleme kabul edilmez; logo değişimi için PNG veya WebP kullanılabilir.
+`npm run build:vercel`, derleme çıktısından PHP API’sini ve yerel yüklemeleri kaldırır. Vercel’e kaynak yüklerken `.vercelignore` yerel şifreleri, içerik dosyalarını ve test araçlarını dışarıda bırakır. `vercel.json`, API isteklerini sayfa yönlendirmesinden ayırır. Yeni sürüm: `vercel deploy --prod --yes`.
 
-Vercel/Netlify gibi yalnızca statik yayın ortamlarında PHP API çalışmaz; panelin kayıt ve giriş işlevleri için PHP destekli sunucu veya ayrıca API barındırma gerekir. API kullanılamadığında ziyaretçi sitesi başlangıç içeriğiyle açılır.
+Görseller en fazla **3 MB** olabilir; JPG, PNG, WebP ve GIF kabul edilir. İçerik kayıtlarında sürüm ve Blob ETag kontrolü eşzamanlı değişiklikleri korur. Giriş HttpOnly/Secure/SameSite oturum çerezi kullanır; yazma ve yükleme isteklerinde CSRF doğrulanır.
 
-Doğrulama: `npm run build`, PHP sözdizimi kontrolü ve `node qa-admin.cjs` ile giriş, metin yayınlama, görsel yükleme, mobil taşma, sayfa açılışları ve yetkisiz kayıt engeli kontrol edildi. `qa-admin.cjs`, yerel PHP ve Vite sunucuları ile `.qa-tools` altındaki Playwright kurulumunu kullanır.
+### Apache / cPanel alternatifi
 
-### İçerik kapsam kontrolü
+`npm run build` sonrası dist içeriğini PHP 8+ ve fileinfo destekli sunucuya yükleyin. `api/config.php` içinde şifre tanımlayın; `api/private` ve `uploads` klasörleri yazılabilir olmalıdır. Bu ortamda içerik `api/private/content.json` içinde saklanır. Yeniden dağıtımda mevcut içerik dosyalarını ve yüklenen görselleri koruyup yedekleyin. Apache erişim kuralları şifreyi ve özel dosyaları doğrudan indirmeye kapatır; farklı sunucuda eşdeğer kuralları ekleyin.
 
-SSS bölümünde 16 soru–cevap çifti birlikte düzenlenir; kategoriler, sayfa başlığı ve açıklamaları da aynı bölümde bulunur. Ortak veri dosyasındaki içerikler kullanıldıkları sayfalara atanmıştır: program metinleri Programlar/Program detayları, kayıt adımları ve malzemeler Kayıt & üyelik, galeri açıklamaları Galeri altında görünür. **Tüm içerikler** tüm alanlarda arama sağlar. Ortak kullanılan bir metin değiştirildiğinde onu kullanan diğer sayfalar da güncellenir.
+### İçerik kapsamı ve kontroller
 
-Görsel kütüphanesi fotoğraflara ek olarak ana/açık renk logo, açılış amblemi ve logosu, tarayıcı simgesi, mobil simge ve paylaşım görselini kapsar. Telefon değişikliği arama ve WhatsApp adreslerini; açık adres değişikliği haritayı ve yol tarifi bağlantısını günceller. Yayınlanan metinler tarayıcı başlığı, açıklama ve kulüp yapılandırılmış verilerine de yansır. Sosyal platformların JavaScript çalıştırmayan önizleme botları index.html dosyasındaki başlangıç metaverisini okuyabilir.
+SSS’de 16 soru–cevap çifti birlikte düzenlenir. Ortak içerikler kullanıldıkları sayfalara atanmıştır. **Tüm içerikler**, bütün alanlarda arama sağlar. Ortak metin ve görsel değişiklikleri kullanıldıkları diğer sayfalara da yansır. Görsel kütüphanesi logoları, açılış amblemini/logosunu, tarayıcı/mobil simgeleri ve paylaşım görselini kapsar. Telefon değişikliği arama ve WhatsApp adreslerini; açık adres değişikliği haritayı günceller.
 
-`node qa-content-audit.cjs`, çalışan yerel sunucular üzerinde tüm metinleri ve görselleri geçici değiştirir; SSS düzenleme/arama/ana sayfa eşleşmesi, 14 sayfa, 6 program, galeri filtreleri/lightbox, telefon/WhatsApp/harita bağlantıları ve mobil paneli kontrol eder. İşlem sonunda başlangıç içeriklerini API üzerinden geri yükler. Bu kontrol sırasında yerel panelde eşzamanlı içerik düzenlemeyin.
+`node qa-content-audit.cjs`, yerel sunucularda 14 sayfa ve 6 program detayını, SSS düzenleme/arama/ana sayfa eşleşmesini, galeri filtreleri/lightbox’ı, görselleri, iletişim bağlantılarını ve mobil paneli kontrol eder. Test içeriğini sonunda geri yükler. Yerel test sırasında eşzamanlı düzenleme yapmayın. `node qa-live-login.cjs`, canlı giriş, aynı içeriğin kalıcı kaydı, görsel yükleme/okuma, yetki/CSRF ve boş API yanıtı hata mesajını sınar. Testler .qa-tools altındaki Playwright kurulumunu kullanır.
+
+Metaveriler JavaScript üzerinden güncellenir; JavaScript çalıştırmayan sosyal önizleme botları index.html içindeki başlangıç metaverilerini okuyabilir.

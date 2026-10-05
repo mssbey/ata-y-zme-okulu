@@ -1,0 +1,8 @@
+.env*
+admin-credentials.txt
+public/api/config.php
+public/api/private
+public/uploads
+.qa-tools
+qa
+qa-*.cjs

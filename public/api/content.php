@@ -28,6 +28,17 @@ if (empty($_SESSION['admin'])) reply(['error'=>'Lütfen giriş yapın.'],401);
 if (!hash_equals($_SESSION['csrf'], $_SERVER['HTTP_X_CSRF_TOKEN'] ?? '')) reply(['error'=>'Oturum doğrulanamadı. Tekrar giriş yapın.'],403);
 if ($action === 'logout') { $_SESSION=[]; session_destroy(); reply(['ok'=>true]); }
 if ($action === 'upload') {
+ if (isset($input['image'])) {
+  $bytes = is_string($input['image']) ? base64_decode($input['image'], true) : false;
+  if (!$bytes || strlen($bytes) > 3*1024*1024) reply(['error'=>'En fazla 3 MB boyutunda bir görsel seçin.'],422);
+  $mime=(new finfo(FILEINFO_MIME_TYPE))->buffer($bytes);
+  $extensions=['image/jpeg'=>'jpg','image/png'=>'png','image/webp'=>'webp','image/gif'=>'gif'];
+  if (!isset($extensions[$mime]) || !getimagesizefromstring($bytes)) reply(['error'=>'JPG, PNG, WebP veya GIF görseli seçin.'],422);
+  $dir=dirname(__DIR__).'/uploads'; if (!is_dir($dir)) mkdir($dir,0755,true);
+  $name=bin2hex(random_bytes(16)).'.'.$extensions[$mime];
+  if (file_put_contents($dir.'/'.$name,$bytes)===false) reply(['error'=>'Görsel kaydedilemedi.'],500);
+  reply(['url'=>'/uploads/'.$name]);
+ }
  $upload=$_FILES['image'] ?? null;
  if (!$upload || $upload['error'] !== UPLOAD_ERR_OK || $upload['size'] > 8*1024*1024) reply(['error'=>'En fazla 8 MB boyutunda bir görsel seçin.'],422);
  $mime=(new finfo(FILEINFO_MIME_TYPE))->file($upload['tmp_name']);

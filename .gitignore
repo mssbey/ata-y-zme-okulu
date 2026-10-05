@@ -10,3 +10,5 @@ public/api/private/
 admin-credentials.txt
 public/uploads/*
 !public/uploads/.htaccess
+.vercel
+.env*
