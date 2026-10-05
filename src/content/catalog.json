@@ -1,0 +1,8041 @@
+[
+  {
+    "key": "text_77466ebad986f618",
+    "value": "Ata Yüzme Spor Kulübü",
+    "groups": [
+      "Genel içerik",
+      "Layout",
+      "Contact",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "brand"
+      },
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_6296eb9c7b43c97c",
+    "value": "Ata Yüzme",
+    "groups": [
+      "Genel içerik",
+      "Layout",
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "brand"
+      }
+    ]
+  },
+  {
+    "key": "text_569a70d32b725df6",
+    "value": "Yakacık Yüzme Havuzu",
+    "groups": [
+      "Genel içerik",
+      "Layout",
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "brand"
+      }
+    ]
+  },
+  {
+    "key": "text_3c77185159b3e8bf",
+    "value": "Yüzmek Hobi Değil, Prestijdir.",
+    "groups": [
+      "Genel içerik",
+      "Layout",
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "brand"
+      }
+    ]
+  },
+  {
+    "key": "text_e2b4ba377f239b30",
+    "value": "0537 938 73 32",
+    "groups": [
+      "Genel içerik",
+      "Layout",
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "brand"
+      }
+    ]
+  },
+  {
+    "key": "text_a0c65ee28f407530",
+    "value": "ata@yakacikyuzmehavuzu.com",
+    "groups": [
+      "Genel içerik",
+      "Layout",
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "brand"
+      }
+    ]
+  },
+  {
+    "key": "text_86709da66a403969",
+    "value": "Cumhuriyet Mah. Yüzyıl Cad. No:71 / A",
+    "groups": [
+      "Genel içerik",
+      "Layout",
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "brand"
+      }
+    ]
+  },
+  {
+    "key": "text_02bfdca99db3fb41",
+    "value": "Kartal / İstanbul",
+    "groups": [
+      "Genel içerik",
+      "Layout",
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "brand"
+      }
+    ]
+  },
+  {
+    "key": "text_576f79bd741222d1",
+    "value": "Merhaba, yüzme programlarınız hakkında bilgi almak istiyorum.",
+    "groups": [
+      "Genel içerik"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "whatsapp"
+      }
+    ]
+  },
+  {
+    "key": "text_4880b93c7b77b50a",
+    "value": "Kurumsal",
+    "groups": [
+      "Layout",
+      "About",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "nav"
+      },
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8ec2bb837a16ca7a",
+    "value": "Programlar",
+    "groups": [
+      "Layout",
+      "Faq",
+      "Home",
+      "ProgramDetail",
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "nav"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      },
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_55d268039cc995c6",
+    "value": "Kayıt & Üyelik",
+    "groups": [
+      "Layout",
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "nav"
+      },
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_41533b6d0d098341",
+    "value": "Galeri",
+    "groups": [
+      "Layout",
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "nav"
+      },
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5ba17459505b7261",
+    "value": "S.S.S.",
+    "groups": [
+      "Layout",
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "nav"
+      },
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5e948ad2e2df8515",
+    "value": "İletişim",
+    "groups": [
+      "Layout",
+      "Contact",
+      "NotFound"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "nav"
+      },
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/NotFound.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_90cbc6d831f60fc5",
+    "value": "Çocuk Yüzme Kursu",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_394fdce88b63c3f6",
+    "value": "Çocuk",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_9627471014c631a0",
+    "value": "5 – 14 yaş",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_8429b93e325f9033",
+    "value": "İlk kulaçtan teknik yüzmeye",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_3f05652a1fedef17",
+    "value": "Suya adaptasyondan dört branş tekniğine; yaşa ve seviyeye göre planlanan grup eğitimleri.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_f109a1ecd60a4111",
+    "value": "Ata boneli çocuklar havuzda eğitmenlerini dinliyor",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_979776f3e2bcf29f",
+    "value": "Yüzme tahtalarıyla çalışan çocuk grubu",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_c5f61ddae5507eb3",
+    "value": "Havuzda gülümseyen Ata Yüzme öğrencileri",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_e7fc86d8ce4c57ff",
+    "value": "5 – 14 yaş grubunu kapsayan çocuk yüzme eğitimlerimiz, Yakacık Yüzme Havuzu’nda yaş ve seviye esas alınarak oluşturulan gruplarla yürütülür.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_c778a01b5269be90",
+    "value": "Eğitim süreci suyla tanışma ve güven kazanmayla başlar; teknik öğrenme ve geliştirme aşamasıyla devam eder. Yüzmeyi spor olarak sürdürmek isteyen öğrenciler için performans gruplarına uzanan bir gelişim yolu sunulur.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_bfafee68686f5f2c",
+    "value": "Yaş grubu",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_45cf38522704a1dc",
+    "value": "Ders düzeni",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_3b148da2431a5433",
+    "value": "Haftada 2 gün, 1’er saat",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_e2e0c7f5b3cae37d",
+    "value": "Aylık program",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_1c262e66ee435a71",
+    "value": "8 ders",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_2d32e3d9b5f2c082",
+    "value": "Grup yapısı",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_2f631a73c7669a07",
+    "value": "Seviyeye göre, en fazla 6 kişi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_bfb24ce6eb683fac",
+    "value": "Başlangıç seviyesi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_009884f7c41e8dba",
+    "value": "Yüzme öğrenme aşaması",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_51c04e7485a092a8",
+    "value": "Su ile tanışma ve adaptasyon çalışmaları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_376e4dc83da2fe13",
+    "value": "Temel nefes çalışmaları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_40a7e9ce1d3a83ba",
+    "value": "Ayak vuruşu ve vücut pozisyonu çalışmaları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_ba2b38a53ec680f6",
+    "value": "Eğitsel oyunlar",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_3040e1b0c257a3fc",
+    "value": "Havuza atlama çalışmaları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_9bb2c38870bc07c8",
+    "value": "Teknik öğrenme ve geliştirme",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_6f25862dd6595ec0",
+    "value": "Spor odaklı teknik aşama",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_1fbeab8a09615511",
+    "value": "Streamline yüzme çalışmaları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_677a49663bb50ccd",
+    "value": "Serbest yüzmede nefes – kol koordinasyonu",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_1dca58de9e61619e",
+    "value": "Sırtüstü yüzme teknikleri",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_a13f618fb43abcae",
+    "value": "Kurbağalama yüzme çalışmaları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_08d122e553a8a32a",
+    "value": "Kelebek yüzmede temel teknik",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_9fedd4243a2d2e73",
+    "value": "Atlama ve çıkış çalışmaları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_99ad261514bbecd7",
+    "value": "Performans grupları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_094d5240bd1b05f5",
+    "value": "Lisanslı sporcu aşaması",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_a2e013207cbd44be",
+    "value": "Dört branşta teknik çalışmalar",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_46839f7d07360b1e",
+    "value": "Yarışmaya yönelik mesafe antrenmanları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_b0cff1c08aae9259",
+    "value": "Kondisyon çalışmaları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_93741154a0cd173b",
+    "value": "Çıkış, dönüş ve bitiriş tekniği",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_0017d4c635a87558",
+    "value": "Yetişkin Yüzme Kursu",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_fe4117cefaeb2c43",
+    "value": "Yetişkin",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_bf46adecede77aab",
+    "value": "15 yaş ve üzeri",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_fa5ab1fcc93c0c56",
+    "value": "Başlamak için hiçbir zaman geç değil",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_f454f0ff65483770",
+    "value": "İlk kez yüzme öğrenenlerden tekniğini geliştirmek isteyenlere, seviyeye uygun grup ve bire bir dersler.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_6bcfe5efacad32a1",
+    "value": "Ata bonesiyle kulvar kenarında yetişkin yüzme öğrencisi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_d7c4565c6ba8ed1d",
+    "value": "Havuz kenarında ısınma hareketleri yapan yetişkin grup",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_f73241ed5d9e8527",
+    "value": "Kelebek stilinde yüzen yetişkin sporcu",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_a554837f972c91c9",
+    "value": "Yetişkin yüzme eğitimlerimiz, 15 yaş ve üzeri katılımcıların yüzme seviyesine göre oluşturulan gruplarda verilir. Hiç yüzme bilmeyenler de, tekniğini ilerletmek isteyenler de kendi seviyesine uygun bir başlangıç noktası bulur.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_17c1857d16c0935f",
+    "value": "Öğrenme süresi kişiden kişiye değişmekle birlikte, yetişkinler ortalama 1 – 2 ay içinde yüzmeye başlar. Düzenli katılım, bu süreci belirleyen en önemli etkendir.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_617f7d61739422eb",
+    "value": "En fazla 6 kişi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d5fcad97576f3177",
+    "value": "Eğitim seçenekleri",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_3d0de364d8916a43",
+    "value": "Bire bir (özel) yüzme dersi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_f0d87da1d7036f11",
+    "value": "Grup yüzme dersi (en fazla 6 kişi)",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_d9b70e8397050d3d",
+    "value": "Performans amaçlı eğitim",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_485c50810c79dfb0",
+    "value": "Serbest yüzme (yüzme bilenler için)",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_ded70ffe730a898b",
+    "value": "Sağlık amaçlı yüzme",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_27d6aed8efc2f8e8",
+    "value": "Seviye grupları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_2b1e7fae146c7516",
+    "value": "Başlangıç: suya adaptasyon, nefes ve ayak vuruşu tekniği",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_0e30e41f6ee6a5c0",
+    "value": "Teknik öğrenim: koordinasyon ve dört branş tekniği",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_95e28387a8273099",
+    "value": "Performans: ileri teknik, antrenman ve kondisyon çalışmaları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_fedf5cef7fadbc37",
+    "value": "Minik Yüzme Dersleri",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_8541c6c0d6da1e04",
+    "value": "Minik",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_1e1e40a660c0bf5e",
+    "value": "3 – 5 yaş",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_1504bc286273b2ef",
+    "value": "Suyla güvenli ilk tanışma",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_ea11f307b005e059",
+    "value": "Su güvenliği, suya uyum ve motor gelişim odağında; yüzme sporunu sevdiren grup dersleri.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_8322cf7d39a67be8",
+    "value": "Havuz kenarında renkli yüzme köpükleriyle çalışan minik öğrenciler",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_8f4f643d0ce5431d",
+    "value": "Eğitmeniyle havuz kenarında çalışan minik öğrenciler",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_b57dc2cee7bfc335",
+    "value": "Ata boneli minik öğrenciler gözlüklerini takıyor",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_3b847b1fcb3f5647",
+    "value": "3 – 5 yaş grubuna yönelik minik yüzme derslerimiz, çocukların suyla güvenli ve keyifli bir ilişki kurmasını amaçlar. Grup dersleri ebeveynler suya girmeden yapılır; çalışmalar havuz alanından izlenebilir.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_25ddbe09436fb83f",
+    "value": "Program, oyun temelli etkinliklerle su güvenliği ve suya adaptasyonu destekler; yüzme sporuna ilk adımı atan çocukların sosyal gelişimine de katkı sağlar.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_8a0bf00a2abd8852",
+    "value": "Ders formatı",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_089b54e3fe79050a",
+    "value": "Grup dersi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_ef0ca7a406b8ee30",
+    "value": "Ebeveyn",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_7f8b3cfe1b136f5f",
+    "value": "Dersleri izleyebilir",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_41620582d6218948",
+    "value": "Odak",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_6a6b7adf8de098b1",
+    "value": "Su güvenliği ve adaptasyon",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_e27b507024a3b125",
+    "value": "Eğitim hedefleri",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_1020dbf58d1fcd8e",
+    "value": "Su aktivitesi ve suya adaptasyon",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_4cd0bc12a20654ba",
+    "value": "Motor becerilerin gelişimi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_e0413df76017a521",
+    "value": "Yüzme sporunu tanıtmak ve sevdirmek",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_80a3c8f65df52183",
+    "value": "Grup içinde sosyalleşmeyi öğretmek",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_c421a5df96b4d8d1",
+    "value": "Ebeveynler için öneriler",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_52739d8b7a227c52",
+    "value": "Çocuğunuzun suya güven duymasını sabırla destekleyin",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_b8592b367c1b10bd",
+    "value": "Suya üfleme gibi temel alışkanlıkları oyunla pekiştirin",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_ab84e72bbd4e5603",
+    "value": "Su çekmeyen bez ve havlu gibi ihtiyaçları önceden hazırlayın",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_12dcc1068abd905a",
+    "value": "Özel Yüzme Dersleri",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_6b0c1fc983e0a8a3",
+    "value": "Özel ders",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8791c5824d1d389c",
+    "value": "3 yaştan yetişkine",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_c4079072b7d278fd",
+    "value": "Size özel planlanan bire bir eğitim",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_d6f8c9306194681c",
+    "value": "Yaşa, seviyeye ve hedefe göre planlanan; gün ve saatleri birlikte belirlenen bire bir dersler.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_c5bf3498bd84714b",
+    "value": "Su altında kameraya doğru yüzen Ata Yüzme öğrencisi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_88cd6334d6e68253",
+    "value": "Yüzme tahtasıyla ayak vuruşu çalışan öğrenci",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_629ed63d49e3b689",
+    "value": "Ata Yüzme eğitmeni çıkış bloğunda teknik gösteriyor",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c5b617a9a755586c",
+    "value": "Bire bir özel yüzme dersleri, 3 yaşından itibaren çocuklar ve yetişkinler için kişinin yaşı ve yüzme seviyesine göre planlanır. Eğitim gün ve saatleri, katılımcıyla birlikte belirlenir.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_642c29d7296178de",
+    "value": "Özel dersler aylık paketler halinde düzenlenir; her pakette 1’er saatlik 8 ders bulunur.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_2cb0ae387c17b934",
+    "value": "Kimler için",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_00edfe745a76404e",
+    "value": "3 yaştan itibaren çocuk ve yetişkin",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_9d6fc6bad958d1e5",
+    "value": "Ders süresi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_384a9067127e3638",
+    "value": "1 saat",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_806974efd1268d90",
+    "value": "Aylık paket",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_90920d93e2c7e632",
+    "value": "Program",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_03fee96957ef151b",
+    "value": "Kişiye özel planlama",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_298da90db5bbb3e9",
+    "value": "Özel ders kimler için uygun?",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_c7a43c85e41a1470",
+    "value": "Su korkusu yaşayanlar",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_c69f651702c27859",
+    "value": "Grup derslerini tercih etmeyenler veya grup saatlerine uyamayanlar",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_dda836b6912b950c",
+    "value": "Daha hızlı ilerlemek isteyenler",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_6e885b961515fb72",
+    "value": "Özel ilgi ve yakın takip gerektiren durumlar",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_b70477ec9b2307db",
+    "value": "Tekniğini geliştirmek isteyen deneyimli yüzücüler",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_cdcf6fa011e58290",
+    "value": "Performans Yüzme",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_559b742446bf14ea",
+    "value": "Performans",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "pathway"
+      }
+    ]
+  },
+  {
+    "key": "text_38beab07b485d7a8",
+    "value": "Lisanslı sporcu",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_96954f718cc50d68",
+    "value": "Kulvardan kürsüye uzanan yol",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_c77eabb9ab33255c",
+    "value": "Antrenör değerlendirmesiyle takım antrenmanları; yaş gruplarına göre planlanan sporcu gelişimi.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_63454f658162cb33",
+    "value": "Ata Yüzme sporcusu çıkış bloğunda start pozisyonunda",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_4a8cfce43d3663a8",
+    "value": "Yarış sonrası sonuçları takip eden genç sporcular",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_2623764020a4b295",
+    "value": "Madalyalı Ata Yüzme sporcuları kulüp bayrağıyla",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      },
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5cf3b165c96b6ba8",
+    "value": "Performans yüzme programı, kurslardan mezun olan ve antrenör gözlemiyle takım antrenmanlarına geçen sporcularımızı kapsar. Kulüp dışından katılmak isteyen sporcular, yaş gruplarına göre belirlenen kriterler doğrultusunda değerlendirilir.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_d4e478fba72a617e",
+    "value": "Ata Yüzme Spor Kulübü sporcuları, Türkiye Yüzme Federasyonu çatısı altında ulusal ve uluslararası yarışlarda kulübümüzü temsil eder.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_91e17e6ed08a85ce",
+    "value": "Statü",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_3702423bdac8f1db",
+    "value": "Geçiş",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_e9b6360c840b0690",
+    "value": "Antrenör değerlendirmesiyle",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_b3ce1bdff1230304",
+    "value": "Branşlar",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_816fd66fa0f2586d",
+    "value": "Serbest, sırtüstü, kurbağalama, kelebek",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_831d1990ae0a3d3a",
+    "value": "Yarışlar",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_41d3e9d7fba1fa69",
+    "value": "Ulusal ve uluslararası",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_f1fe1d73e03aa531",
+    "value": "Programın kazanımları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_6f9df5cd2f918d11",
+    "value": "Lisanslı sporcu olma",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_e4499d8956a1736a",
+    "value": "Okul bursu süreçlerinde sportif altyapı",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_3d4f3292742e5d4c",
+    "value": "Yurt dışı burs olanaklarına yönelik sporcu geçmişi",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_d0821f7837d3f2b4",
+    "value": "Milli takım seçmelerine katılım hakkı",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_da148fae76982abc",
+    "value": "Takım antrenmanlarına geçiş ve dışarıdan katılım kriterleri için antrenörlerimizle görüşmenizi öneririz.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_4965191de51100b7",
+    "value": "Sağlık Amaçlı Yüzme",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_5aed93824f10cc1d",
+    "value": "Sağlık",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_8c9d4eb038fae428",
+    "value": "Her yaş",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_ba7a5015a6f625ec",
+    "value": "Yaşam boyu sürdürülebilir bir spor",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_62375848dc80c296",
+    "value": "Yüzmeyi düzenli bir sağlık alışkanlığına dönüştürmek isteyenler için eğitim ve serbest yüzme seçenekleri.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_ad30c4a37eb9add5",
+    "value": "Havuzda kulvar boyunca yüzen yetişkinler",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_b8306041c07fa246",
+    "value": "Eğitim öncesi esneme hareketleri yapan yetişkinler",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_60f6dd8b62e246aa",
+    "value": "Kulvarda serbest stil yüzen sporcu",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_6a9158251402628f",
+    "value": "Yüzme, her yaş grubuna önerilebilen ve yaşam boyu sürdürülebilen spor dallarının başında gelir. Suyun kaldırma kuvveti sayesinde eklemler üzerindeki yük azalır, sakatlanma riski düşer.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_33b171978624cb64",
+    "value": "Kulübümüz, yüzmeyi sağlık ve spor amacıyla düzenli bir alışkanlığa dönüştürmek isteyenler için eğitimli programlar ve eğitim almadan katılabilecek serbest yüzme seansları sunar.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_870dbe390c358ef9",
+    "value": "Her yaş grubu",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_1ba822cc0684a103",
+    "value": "Seçenekler",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_3e85053d737e6735",
+    "value": "Eğitimli program veya serbest yüzme",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_267c6508d8f6d3ba",
+    "value": "Ortam",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_bc4c5c4dc103afc1",
+    "value": "Kapalı havuz",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_3198c637d0744a22",
+    "value": "Kondisyon ve sağlıklı yaşam",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_757397b19dc08df0",
+    "value": "Yüzmenin sağlığa katkıları",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_b1be260c8e4a11d7",
+    "value": "Akciğer kapasitesini artırır, nefes tekniğini geliştirir",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_8340e94b983b7eb0",
+    "value": "Kardiyovasküler kondisyonu destekler",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_a19a3f10cf34a1c3",
+    "value": "Kas kuvvetini ve dayanıklılığı artırır",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_b6155a5019023687",
+    "value": "Sırt ve karın kaslarını güçlendirir",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_713ebdc127b8a322",
+    "value": "Eklem dostu, düşük darbeli bir egzersiz sunar",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_7568ff1783e50dc0",
+    "value": "Sağlık sorunu olan katılımcıların yüzmeye başlamadan önce hekimine danışmasını öneririz.",
+    "groups": [
+      "Programs",
+      "ProgramDetail",
+      "Home",
+      "Enrollment",
+      "Contact",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "programs"
+      }
+    ]
+  },
+  {
+    "key": "text_e7f6c011776e8db7",
+    "value": "6",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "stats"
+      }
+    ]
+  },
+  {
+    "key": "text_04d4eb7c403baf48",
+    "value": "Grup başına en fazla öğrenci",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "stats"
+      }
+    ]
+  },
+  {
+    "key": "text_2c624232cdd22177",
+    "value": "8",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "stats"
+      }
+    ]
+  },
+  {
+    "key": "text_3b0a1cce8224ac01",
+    "value": "Aylık ders · haftada 2 gün",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "stats"
+      }
+    ]
+  },
+  {
+    "key": "text_a38d780c0b08f82e",
+    "value": "3+",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "stats"
+      }
+    ]
+  },
+  {
+    "key": "text_73ea174e72a6923b",
+    "value": "Yaştan itibaren eğitim",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "stats"
+      }
+    ]
+  },
+  {
+    "key": "text_4b227777d4dd1fc6",
+    "value": "4",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "stats"
+      }
+    ]
+  },
+  {
+    "key": "text_f59a41746b49767a",
+    "value": "Branşta teknik eğitim",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "stats"
+      }
+    ]
+  },
+  {
+    "key": "text_6a55395830adce17",
+    "value": "Federasyona bağlı kulüp",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_be27007f33cddb1e",
+    "value": "Türkiye Yüzme Federasyonu’na bağlı akredite bir spor kulübü olarak faaliyet gösteriyoruz.",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_6edcf0230e2f7479",
+    "value": "Bilimsel eğitim",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_503daedf9fe191e4",
+    "value": "Her yaş grubuna, gelişim dönemine uygun ve bilimsel temelli yüzme eğitimi sunuyoruz.",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_27400f5f47feeb4f",
+    "value": "Uzman eğitmen kadrosu",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_09c3e0ec468cf723",
+    "value": "Eğitmenlerimiz BESYO mezunu akademisyenler ve/veya uzun yıllar yüzücülük yapmış eski sporculardan oluşur.",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_2828e6075c624dd8",
+    "value": "Küçük gruplar",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_4076af163506a85d",
+    "value": "Grup derslerimiz en fazla 6 kişiden oluşur; her öğrenci yakından takip edilir.",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_097107f0c88e8373",
+    "value": "Seviye bazlı gelişim",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_9d635e0ca54f9c21",
+    "value": "Başlangıçtan performansa, her öğrenci seviyesine uygun grupta ilerler.",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_72c4a537d1ed13a4",
+    "value": "Şeffaf süreç",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_c4f7351c3e1ffd10",
+    "value": "Kayıt öncesinde havuzu ziyaret edebilir, dersleri gözlemleyebilir ve eğitmenlerle tanışabilirsiniz.",
+    "groups": [
+      "Home",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "values"
+      }
+    ]
+  },
+  {
+    "key": "text_296ccc7ac21e386c",
+    "value": "Başlangıç",
+    "groups": [
+      "Home",
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "pathway"
+      }
+    ]
+  },
+  {
+    "key": "text_8ddbc1d12152ed91",
+    "value": "Suyla tanışma, adaptasyon, temel nefes ve ayak vuruşu çalışmaları.",
+    "groups": [
+      "Home",
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "pathway"
+      }
+    ]
+  },
+  {
+    "key": "text_e900107f2f5fff70",
+    "value": "Teknik gelişim",
+    "groups": [
+      "Home",
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "pathway"
+      }
+    ]
+  },
+  {
+    "key": "text_53bda2c76a533290",
+    "value": "Dört branşta teknik öğrenme, koordinasyon, atlama ve çıkış çalışmaları.",
+    "groups": [
+      "Home",
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "pathway"
+      }
+    ]
+  },
+  {
+    "key": "text_bdf18326c5afb9ce",
+    "value": "Lisanslı sporculuk, mesafe antrenmanları, kondisyon ve yarış teknikleri.",
+    "groups": [
+      "Home",
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "pathway"
+      }
+    ]
+  },
+  {
+    "key": "text_8d4032d7b90094d8",
+    "value": "11 – 12",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_e2d6191b985f5273",
+    "value": "Gelişim çağı",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_082c01b811c2e599",
+    "value": "Teknik öğrenme ve aerobik kapasitenin geliştirilmesi ön plandadır.",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_0bc13f5d6f1f55dd",
+    "value": "13 – 14",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_5afaa8bd616a8a1e",
+    "value": "Yıldızlar",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_a338a165b49385f9",
+    "value": "Milli takım seçmelerine ilk kez katılım; teknik pekiştirme ve kara antrenmanlarının başlangıcı.",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_bf1a005b3bea23b5",
+    "value": "15 – 16",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_5cf760fd9a3ad026",
+    "value": "Gençler",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_511f093b588c761c",
+    "value": "Tüm enerji sistemlerinin çalıştırılması, artan anaerobik yüklenmeler ve beslenme bilinci.",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_242214cc5b02a87b",
+    "value": "17 +",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_a4f6bf3e811a551a",
+    "value": "Açık yaş",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_900be246dec91396",
+    "value": "Performansın zirvesine yaklaşılan dönem; küçük yaşlardan gelen doğru antrenman altyapısı belirleyicidir.",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "ageStages"
+      }
+    ]
+  },
+  {
+    "key": "text_e9aa1f265ccc2d71",
+    "value": "Bize ulaşın",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "enrollmentSteps"
+      }
+    ]
+  },
+  {
+    "key": "text_a07e8b10f839fe31",
+    "value": "Telefon veya WhatsApp üzerinden yaş, seviye ve hedefinizi paylaşın; size uygun programı birlikte belirleyelim.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "enrollmentSteps"
+      }
+    ]
+  },
+  {
+    "key": "text_7ab253670fb25012",
+    "value": "Tesisi ziyaret edin",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "enrollmentSteps"
+      }
+    ]
+  },
+  {
+    "key": "text_e1b8defdc01e7244",
+    "value": "Randevu alarak havuzu görebilir, dersleri gözlemleyebilir ve eğitmenlerimizle tanışabilirsiniz.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "enrollmentSteps"
+      }
+    ]
+  },
+  {
+    "key": "text_8ad291bd164943cd",
+    "value": "Ön kayıt yaptırın",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "enrollmentSteps"
+      }
+    ]
+  },
+  {
+    "key": "text_5b24595043548225",
+    "value": "Kontenjanlarımız sınırlıdır. Planladığınız dönemde başlayabilmek için ön kayıt yaptırmanızı öneririz.",
+    "groups": [
+      "Enrollment",
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "enrollmentSteps"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_65adfff2272ba176",
+    "value": "Derslere başlayın",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "enrollmentSteps"
+      }
+    ]
+  },
+  {
+    "key": "text_09e70f9f243b714a",
+    "value": "Seviyenize uygun grupta, düzenli bir ders programıyla eğitiminize başlayın.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "enrollmentSteps"
+      }
+    ]
+  },
+  {
+    "key": "text_965e95de47a47ab4",
+    "value": "Yüzme bonesi",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "equipment"
+      }
+    ]
+  },
+  {
+    "key": "text_626b33d6849b9aa2",
+    "value": "Yüzücü (klor) gözlüğü",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "equipment"
+      }
+    ]
+  },
+  {
+    "key": "text_fcce7f61537676fb",
+    "value": "Mayo veya yüzme şortu",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "equipment"
+      }
+    ]
+  },
+  {
+    "key": "text_ee3f10fbf81431d9",
+    "value": "Kaymaz tabanlı terlik",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "equipment"
+      }
+    ]
+  },
+  {
+    "key": "text_4bea6cdf6b1d65f4",
+    "value": "Havlu",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "equipment"
+      }
+    ]
+  },
+  {
+    "key": "text_99d42cb86da237d3",
+    "value": "Kayıt öncesinde dersleri yerinde gözlemleyin.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "advice"
+      }
+    ]
+  },
+  {
+    "key": "text_7667db60ca10e463",
+    "value": "Eğitmenle görüşün; deneyimi ve yaklaşımı hakkında bilgi alın.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "advice"
+      }
+    ]
+  },
+  {
+    "key": "text_97454736f90c1e9a",
+    "value": "Havuz suyunun kalitesi ve hijyen uygulamaları hakkında bilgi isteyin.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "advice"
+      }
+    ]
+  },
+  {
+    "key": "text_132aa5df9fbcf5e5",
+    "value": "Kurumun referanslarını ve federasyon bağlantısını sorgulayın.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "advice"
+      }
+    ]
+  },
+  {
+    "key": "text_4cc8f35801add047",
+    "value": "Soyunma odaları ve ortak alanlar dahil tesisi inceleyin.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "advice"
+      }
+    ]
+  },
+  {
+    "key": "text_62d5bf9e096e12c1",
+    "value": "Hangi yaş grupları için eğitim veriyorsunuz?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_aeca83ef29626e08",
+    "value": "3 – 5 yaş minikler, 5 – 14 yaş çocuklar ve 15 yaş üzeri yetişkinler için yüzme eğitimi veriyoruz. Ayrıca özel ders, performans ve sağlık amaçlı yüzme seçeneklerimiz bulunur.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_b97141167626423b",
+    "value": "Gruplar kaç kişiden oluşuyor?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_c65d76f8ce15d5bf",
+    "value": "Grup derslerimiz en fazla 6 kişiden oluşur. Gruplar yaş ve yüzme seviyesine göre belirlenir.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_877b89b48d17aea0",
+    "value": "Dersler ne sıklıkta yapılıyor?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_164dfedbe7dc243b",
+    "value": "Grup dersleri haftada iki gün, birer saat olarak planlanır; aylık programda 8 ders bulunur. Güncel ders saatleri için bizimle iletişime geçebilirsiniz.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_086d05200a6bb592",
+    "value": "Hangi durumlarda özel ders almalıyım?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_0a641e858af8a061",
+    "value": "Su korkusu yaşayanlar, grup derslerinde ilerlemekte zorlananlar, grup saatlerine uyamayanlar ve tekniğini hızla geliştirmek isteyenler için özel ders öneriyoruz.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_9dc2399763ae4b75",
+    "value": "Eğitim süreci",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_0f4368a4ac4aee49",
+    "value": "Yüzmeyi ne kadar sürede öğrenebilirim?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_cffb035175892531",
+    "value": "Ortalama yetenekteki bir kişi, yaklaşık 8 seansta kendi güvenliğini sağlayacak düzeyde yüzebilir. Tekniği geliştirmek ise daha uzun bir süreç gerektirir; yetişkinler genellikle 1 – 2 ay içinde yüzmeye başlar.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_669334c26facec01",
+    "value": "Eğitmenleriniz kimlerden oluşuyor?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_45564b85bab26658",
+    "value": "Eğitmenlerimizin tamamı üniversitelerin beden eğitimi ve spor yüksekokullarından (BESYO) mezun akademisyenler ve/veya uzun yıllar yüzücülük yapmış eski sporculardan oluşur.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_e04868f201009ae2",
+    "value": "Kaçırdığım derslerin telafisi yapılıyor mu?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_cb6a0568bf098f72",
+    "value": "Prensip olarak kaçırılan derslerin telafisi yapılmaz. Özel durumlar için eğitim koordinatörümüzle görüşebilirsiniz.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_921c5d2a4837ef8d",
+    "value": "Performans takımına nasıl geçilir?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_64b5324e4da82801",
+    "value": "Kurslardan mezun olan öğrenciler antrenör gözlemiyle takım antrenmanlarına alınır. Dışarıdan katılmak isteyen sporcular, yaş grubuna göre belirlenen kriterlerle değerlendirilir.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_5c76fac4d1fd2a7c",
+    "value": "Kayıt ve üyelik",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_c7e3e4b05a50ccd2",
+    "value": "Havuzu ve dersleri kayıttan önce görebilir miyim?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_3452a35cae7db7dc",
+    "value": "Evet. Telefonla randevu alarak havuzu ziyaret edebilir, dersleri gözlemleyebilir ve eğitmenlerimizle tanışabilirsiniz.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_55036237439e60c8",
+    "value": "Ne zaman başlayabilirim?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_69cddcaa26eb0992",
+    "value": "Kayıt için hangi belgeler gerekiyor?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_08372b34c2c59ef8",
+    "value": "Çocuk kayıtlarında sağlık durumuna ilişkin belgeler istenebilir. Güncel belge listesini kayıt sırasında sizinle paylaşıyoruz.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_23b32181d76a9075",
+    "value": "Ücret ve ders saatlerini nasıl öğrenebilirim?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_e6065d573cd99250",
+    "value": "Güncel ücret, kontenjan ve ders saatleri için telefon veya WhatsApp üzerinden bize ulaşabilirsiniz.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_18c0b344ccb463c3",
+    "value": "Tesis ve genel",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_4f29376f9db8b7c8",
+    "value": "Derslere gelirken yanımda neler olmalı?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_58b3c7674ee37ffa",
+    "value": "Yüzme bonesi, yüzücü gözlüğü, mayo veya yüzme şortu, kaymaz tabanlı terlik ve havlu getirmeniz yeterlidir.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_dc0f86627cb0dce8",
+    "value": "Eğitim almadan serbest yüzmeye gelebilir miyim?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_8fba3453dc29d379",
+    "value": "Evet, yüzme bilenler için serbest yüzme seansları düzenlenmektedir. Güncel seans ve katılım koşulları için bize ulaşabilirsiniz.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_dcae1e3440f97241",
+    "value": "Tek girişlik kullanım mümkün mü?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_3a2acf4fa31e4618",
+    "value": "Tek girişlik (günlük) kullanım kabul edilmemektedir; katılım üyelik esasına dayanır.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_c0a30f54068453bc",
+    "value": "Servis hizmetiniz var mı?",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_e04b505b6716255a",
+    "value": "Servis hizmeti verilmemektedir. Tesisimize ulaşım bilgisi için İletişim sayfamızdaki haritayı kullanabilirsiniz.",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "faqGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_e9207447fa5c5f4d",
+    "value": "Sırtüstü yüzen Ata Yüzme sporcusu",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_2aa71916f93cb8e4",
+    "value": "Eğitim",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": "cats"
+      }
+    ]
+  },
+  {
+    "key": "text_42691155e9c558be",
+    "value": "Madalyalı sporcular kulüp bayrağıyla",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_3718ff8766bca6eb",
+    "value": "Sporcularımız",
+    "groups": [
+      "Gallery",
+      "About",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": "cats"
+      },
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_a2d7a299c91d7845",
+    "value": "Havuzda dinlenen Ata boneli çocuklar",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_cb04b5d98642f8ae",
+    "value": "Kulvarlara ayrılmış kapalı havuz",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_b1f97931adf9e1cb",
+    "value": "Tesis",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": "cats"
+      }
+    ]
+  },
+  {
+    "key": "text_4fad2a3ffa38a248",
+    "value": "Kürsüde Ata Yüzme sporcuları",
+    "groups": [
+      "Gallery",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_03ceddec48eb8ec8",
+    "value": "Yüzme tahtalarıyla havuz kenarında çalışan çocuklar",
+    "groups": [
+      "Gallery",
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_25a52f9c4d0cbc9a",
+    "value": "Antrenörüyle madalyalı minik sporcular",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_30a6468faec70ee3",
+    "value": "Çıkış bloğunda start alan sporcu",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_c04c4557185c4b3d",
+    "value": "Antrenman sırasında havuz",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_cbfbd3ec7ec25828",
+    "value": "Kelebek stilinde yüzen sporcu",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_50c02e6c7132a45c",
+    "value": "Uluslararası yarışta kürsüde sporcularımız",
+    "groups": [
+      "Gallery",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_2ec426499bdd8a09",
+    "value": "Eğitmeniyle çalışan minik öğrenciler",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_fe7f14d3f2d33121",
+    "value": "Ata Yüzme takım fotoğrafı",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_7be454a2638a2e2d",
+    "value": "Serbest stilde nefes alan sporcu",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_73aadc53db89ad4c",
+    "value": "Açık havuzda yarış organizasyonu",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_7881e1c78e0894bc",
+    "value": "Madalyalı sporcular ve antrenörleri",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_c4a34a43722c7ffe",
+    "value": "Havuzda mutlu öğrenciler",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_57b9de3115ef4184",
+    "value": "Eğitmen çıkış bloğunda teknik gösteriyor",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_b0fbfa9936b88382",
+    "value": "Yarış sonrası kürsüde sporcular",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_2be8b3dfc6fb6089",
+    "value": "Havuz kenarında çalışan çocuklar",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_40c307be6822da57",
+    "value": "Ders öncesi ısınan yetişkinler",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_fccab0a5317426cb",
+    "value": "Ödül töreninde sporcularımız",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_2fb174e60ce06763",
+    "value": "Su altında yüzen öğrenci",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_ba2f6ee18c7f1518",
+    "value": "Açık su yarışında kürsü",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_d15bd7e5521d241f",
+    "value": "Kulvarda antrenman",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_24f5fff18d1f3975",
+    "value": "Kelebek stilinde yüzen genç sporcu",
+    "groups": [
+      "Gallery",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_60d63317f8899793",
+    "value": "Kulüp bayrağıyla sporcular ve antrenörleri",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_eadb1be5e7b86838",
+    "value": "Yüzme tahtasıyla çalışan çocuklar",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_c1f184ff979fbb65",
+    "value": "Kulvarlarda antrenman",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_28c899bdf4a6a725",
+    "value": "Kurbağalama stilinde yüzen sporcu",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_90d1c038001eb0c8",
+    "value": "Havuz kenarında minik öğrenciler",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_fc13bc0611251f64",
+    "value": "Uluslararası yarışta takımımız",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_b275741e49c0da54",
+    "value": "Sırtüstü start çalışması",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_58e9c6bc0f20ca0b",
+    "value": "Havuz başında takımımız",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/data/site.ts",
+        "variable": "gallery"
+      }
+    ]
+  },
+  {
+    "key": "text_8e43e283e33a0c1c",
+    "value": "Sayfa konumu",
+    "groups": [
+      "ui"
+    ],
+    "locations": [
+      {
+        "file": "src/components/ui.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_dcd2f7f89bdc791d",
+    "value": "Ana Sayfa",
+    "groups": [
+      "ui",
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/ui.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_52ef5a4de13e5d6b",
+    "value": "Size uygun programı birlikte belirleyelim.",
+    "groups": [
+      "ui"
+    ],
+    "locations": [
+      {
+        "file": "src/components/ui.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_cec36ae65fd5536e",
+    "value": "Yaş, seviye ve hedefinizi paylaşın; eğitim koordinatörümüz güncel grup ve ders seçenekleriyle size dönüş yapsın.",
+    "groups": [
+      "ui"
+    ],
+    "locations": [
+      {
+        "file": "src/components/ui.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8b800e27d040867c",
+    "value": "Ön kayıt ve bilgi",
+    "groups": [
+      "ui"
+    ],
+    "locations": [
+      {
+        "file": "src/components/ui.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_b9077824e99b6f85",
+    "value": "WhatsApp ile yazın",
+    "groups": [
+      "ui"
+    ],
+    "locations": [
+      {
+        "file": "src/components/ui.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_b1a66c95792448b5",
+    "value": "Türkiye Yüzme Federasyonu’na bağlı spor kulübü",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5719c65b22766aa4",
+    "value": "Yakacık, Kartal / İstanbul",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_435c173f3ea49634",
+    "value": "Tüm programlar",
+    "groups": [
+      "Layout",
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e3471cc99ed8c7ed",
+    "value": "Size uygun programı karşılaştırın",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_489a38bb4ae9f8f6",
+    "value": "Ana menü",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1540f4f3628c8e87",
+    "value": "Ön Kayıt",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5746a58b35815df8",
+    "value": "Menüyü kapat",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_73822f6a15438615",
+    "value": "Menüyü aç",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1e9d78f8c0d3cfb7",
+    "value": "Mobil menü",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_6a40edf1fc87a29f",
+    "value": "WhatsApp",
+    "groups": [
+      "Layout",
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_31de3c50617f43ee",
+    "value": "Türkiye Yüzme Federasyonu’na bağlı Ata Yüzme Spor Kulübü; Yakacık Yüzme Havuzu’nda her yaş grubuna bilimsel yüzme eğitimi sunar.",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_275c6ddbb351b57c",
+    "value": "Hakkımızda",
+    "groups": [
+      "Layout",
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_15a1eebeec336f00",
+    "value": "Sıkça Sorulan Sorular",
+    "groups": [
+      "Layout",
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_141817126a46bbf5",
+    "value": ". Tüm hakları saklıdır.",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_12a8ccb6fc3bc1a6",
+    "value": "· Kartal / İstanbul",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_103732148204c90b",
+    "value": "Zeynart tarafından yapılmıştır.",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1d1efc464bcbede5",
+    "value": "İçeriğe geç",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7ba7ca534a70e50f",
+    "value": "WhatsApp üzerinden yazın",
+    "groups": [
+      "Layout"
+    ],
+    "locations": [
+      {
+        "file": "src/components/Layout.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_b532d1b5e4c2f4aa",
+    "value": "Ata Yüzme Spor Kulübü; Türkiye Yüzme Federasyonu’na bağlı, Yakacık Yüzme Havuzu’nda her yaş grubuna bilimsel yüzme eğitimi sunan bir spor kulübüdür.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_9c1057cd2c307068",
+    "value": "Suda güven,",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8cf5885de763c757",
+    "value": "kulvarda disiplin.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_54561bef17c81aef",
+    "value": "Ata Yüzme Spor Kulübü; her yaş grubuna bilimsel yüzme eğitimi sunan, sporcu yetiştiren ve ulusal–uluslararası yarışlarda yer alan, Türkiye Yüzme Federasyonu’na bağlı bir spor kulübüdür.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_b7197b1a005a5a52",
+    "value": "Ata Yüzme sporcuları ve antrenörleri kulüp bayrağıyla",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_dc3e6683753e75d3",
+    "value": "Yüzmeyi bir yaşam becerisi, sporu bir karakter okulu olarak görüyoruz.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_63ccd02115bb501a",
+    "value": "Kartal Yakacık’ta, Yakacık Yüzme Havuzu’nda faaliyet gösteren kulübümüz; minik yaştan yetişkinliğe kadar her yaş grubuna, gelişim dönemine uygun ve bilimsel temelli yüzme eğitimi sunar.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_af3df150c3320762",
+    "value": "Eğitim modelimiz; suya adaptasyonla başlayan, dört branşta teknik öğrenmeyle derinleşen ve isteyen öğrenciler için lisanslı sporculuğa uzanan aşamalı bir yapıya dayanır. Grup derslerimiz en fazla 6 kişiden oluşur; böylece her öğrenci eğitmeninin yakın takibinde ilerler.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8e8acb24031ee85b",
+    "value": "Performans takımımızın sporcuları, Türkiye Yüzme Federasyonu çatısı altında ulusal ve uluslararası yarışlarda kulübümüzü temsil eder. Bizim için başarı; kürsüdeki madalyalar kadar, suda kendine güvenen her öğrencinin ilk kulacıdır.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_9cfb4f0b386365b8",
+    "value": "Misyonumuz",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_843d417f1c2ed606",
+    "value": "Her yaştan bireye güvenli, nitelikli ve bilimsel temelli yüzme eğitimi sunarak yüzmeyi yaşam boyu sürdürülebilir bir spor alışkanlığına dönüştürmek.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_6a4b4a435ed20722",
+    "value": "Vizyonumuz",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_522de9b540c31d18",
+    "value": "Yetiştirdiği sporcularla ulusal ve uluslararası arenada adından söz ettiren, eğitim kalitesiyle örnek gösterilen bir yüzme kulübü olmak.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c808f37ab920f95d",
+    "value": "Değerlerimiz",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_fcd235c34d083f70",
+    "value": "Eğitim anlayışımızın temelleri.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_3c505d4d03072efb",
+    "value": "Kulübümüzü tercih eden ailelerin ve sporcuların bize duyduğu güvenin arkasında, her gün özenle sürdürdüğümüz ilkeler var.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c4e5937cf518b9d9",
+    "value": "Ata Yüzme antrenörü havuz kenarından antrenmanı takip ediyor",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_cd743d031661e635",
+    "value": "Eğitmen kadromuz",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c4d5eedcd140665c",
+    "value": "Akademik bilgi, sporcu tecrübesiyle buluşuyor.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_72ef8d8f9d9d547b",
+    "value": "Yüzme eğitmenlerimizin tamamı üniversitelerin beden eğitimi ve spor yüksekokullarından (BESYO) mezun akademisyenler ve/veya uzun yıllar yüzücülük yapmış eski sporculardan oluşur.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_372863324f7fc0e9",
+    "value": "Yaş ve gelişim dönemine uygun eğitim planlaması",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8389906e1232181b",
+    "value": "Dört branşta teknik eğitim yetkinliği",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_b892d430fa1ab5cc",
+    "value": "Küçük gruplarla her öğrenciye yakın takip",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8cee52e41731f329",
+    "value": "Performans sporcuları için yarış odaklı antrenman",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_0c939a8e3e6ea4d1",
+    "value": "Tesisimiz",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_ba84abb6de517b29",
+    "value": "Yakacık",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d539c6f0fa3ad47f",
+    "value": "Yüzme Havuzu.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_4c03bca4e1f6203f",
+    "value": "İstanbul Anadolu Yakası’nda, Kartal Yakacık’ta yer alan kapalı havuzda eğitimlerimizi sürdürüyoruz. Kayıt öncesinde randevu alarak tesisimizi ziyaret edebilirsiniz.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_6e0a90ee3cc5638e",
+    "value": "Yakacık Yüzme Havuzu’nda kulvarlara ayrılmış kapalı havuz",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e547b9ec843f7825",
+    "value": "Havuz kenarında eğitim alan çocuklar",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_da9d6e1468775959",
+    "value": "Yol tarifi alın",
+    "groups": [
+      "About",
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5e45b4096dcab53c",
+    "value": "Uluslararası yarışta kürsüde Ata Yüzme sporcuları",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_66cef8b5d39cc927",
+    "value": "Sporcu gelişimi",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_47b0dd9d8be70514",
+    "value": "Kurstan takıma, takımdan kürsüye.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_0d6695375a2aec09",
+    "value": "Kurslarımızdan mezun olan öğrenciler, antrenör gözlemiyle performans takımına geçer. Lisanslı sporcularımız, yaş gruplarına göre planlanan antrenman programlarıyla yarışlara hazırlanır.",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c01e6fbf15155834",
+    "value": "Performans programı",
+    "groups": [
+      "About"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/About.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e5d40681ea8b8140",
+    "value": "Lütfen adınızı ve soyadınızı yazın.",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": "submit"
+      }
+    ]
+  },
+  {
+    "key": "text_6b2dd28b34ebe3c2",
+    "value": "Lütfen geçerli bir telefon numarası yazın.",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": "submit"
+      }
+    ]
+  },
+  {
+    "key": "text_5d2746c69f2641a0",
+    "value": "Merhaba, ön kayıt / bilgi talebim:",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": "lines"
+      }
+    ]
+  },
+  {
+    "key": "text_d30dbfc105d763ae",
+    "value": "İlk kulaç için",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_bc2f4c016b15e10d",
+    "value": "ilk adımı atın.",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_09dc7b2cd98a6508",
+    "value": "Programlar, ön kayıt ve tesis ziyareti için bize telefon, WhatsApp veya e-posta ile ulaşabilirsiniz.",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8303f877b62e1507",
+    "value": "Yakacık Yüzme Havuzu’nda kulvarlar",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_20c47f39498bb061",
+    "value": "İletişim bilgileri",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f44a8117585d6340",
+    "value": "Size nasıl yardımcı olabiliriz?",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_fa6906d76ee94d4e",
+    "value": "Telefon",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_66496a401fbdefa7",
+    "value": "Mesaj gönderin",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e1081b69d80ace5d",
+    "value": "E-posta",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_32c6bebf1cb00776",
+    "value": "Adres",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e91fd01d5d4c07f3",
+    "value": "Ön kayıt / bilgi formu",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c537abf92f35d8d3",
+    "value": "Formu doldurduğunuzda bilgileriniz WhatsApp mesajı olarak hazırlanır; göndermeden önce kontrol edebilirsiniz.",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_14dfdbfa940b3c34",
+    "value": "Ad Soyad *",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_4c9ab8b065a55949",
+    "value": "Telefon *",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1db802e8ea8631c5",
+    "value": "05xx xxx xx xx",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_50ae0414885a270a",
+    "value": "İlgilendiğiniz program",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_830050ddc750c465",
+    "value": "Seçiniz",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1acbe1c95f05a7a9",
+    "value": "Serbest yüzme",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d6894ad9e9b8629f",
+    "value": "Katılımcının yaşı",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_42a1a75b0d4b8d22",
+    "value": "Mesajınız",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_ab84d63c52a487aa",
+    "value": "Yüzme seviyesi, uygun gün ve saatler…",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c2e5061d38d7a4c4",
+    "value": "WhatsApp ile gönder",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_89a6e97ffda5334a",
+    "value": "Konum haritası",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_cc8b7c8aadf02bff",
+    "value": "Konum",
+    "groups": [
+      "Contact"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Contact.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_05fd8f14bcb776b1",
+    "value": "3 – 5",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": "ageGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_0aaa6e995256972f",
+    "value": "Minikler",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": "ageGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_211dae09dac6949a",
+    "value": "5 – 14",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": "ageGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_a7f147e4a35442d2",
+    "value": "Çocuklar",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": "ageGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_1e11bb9775e74a93",
+    "value": "15 +",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": "ageGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_a29df5c39aa19f89",
+    "value": "Yetişkinler",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": "ageGroups"
+      }
+    ]
+  },
+  {
+    "key": "text_70f005fc77e6e4e2",
+    "value": "Ata Yüzme Spor Kulübü kayıt süreci: ön kayıt, tesis ziyareti, yaş grupları, ders düzeni ve derslere gelirken yanınızda bulunması gerekenler.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_05fac454551d0646",
+    "value": "Dört adımda",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f64144c060b8eacc",
+    "value": "derslere başlayın.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f38a2b7ed9805158",
+    "value": "Kontenjanlarımız sınırlıdır. Planladığınız dönemde eğitime başlayabilmek için ön kayıt yaptırmanızı öneririz.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_2a23bc257dee8b8e",
+    "value": "Kayıt süreci",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5b3a5c835a8a7237",
+    "value": "Nasıl başlarım?",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8ebee45e5253a5b0",
+    "value": "İlk görüşmeden ilk derse kadar süreç boyunca eğitim koordinatörümüz size eşlik eder.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_89353c393cd5b85e",
+    "value": "Yaş grupları",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_abc3e615d675e22b",
+    "value": "Haftalık",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_cc3b7583b0675425",
+    "value": "2 gün, 1’er saat",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e055e06d75814d33",
+    "value": "Aylık",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_48bef2532d3fdabe",
+    "value": "Grup",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f93815024ef4fa75",
+    "value": "Gün ve saat birlikte belirlenir",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_fa18f3c8e5a411af",
+    "value": "Yanınızda olsun",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_a60cfccc2b7e2633",
+    "value": "Antrenman sırasında Yakacık Yüzme Havuzu",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d589e1b5b9a97ae0",
+    "value": "Kurs seçerken",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d99bda5e687944e5",
+    "value": "Doğru yüzme okulunu seçmek için öneriler.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_ce01724a7fcea5b0",
+    "value": "Yüzme eğitimi güven gerektirir. Karar vermeden önce şu adımları atmanızı tavsiye ediyoruz — kulübümüzde hepsine açığız.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c0ba2f3c58514437",
+    "value": "Üyelik esasları",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7dd50afee7949c45",
+    "value": "Bilmenizde fayda var.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_bb370d499fa2005c",
+    "value": "Üyelik esaslı katılım.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7f99cdb605e62164",
+    "value": "Tek girişlik (günlük) kullanım kabul edilmemektedir.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_6581c8816e34855f",
+    "value": "Telafi dersleri.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5c584b209806bb0e",
+    "value": "Prensip olarak kaçırılan derslerin telafisi yapılmaz; özel durumlar için koordinatörümüzle görüşebilirsiniz.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c0e16c057120adb6",
+    "value": "Belgeler.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_ca216c7bc528fb50",
+    "value": "Çocuk kayıtlarında sağlık durumuna ilişkin belgeler istenebilir; güncel listeyi kayıt sırasında paylaşıyoruz.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_04ca6e2d3491e44b",
+    "value": "Ulaşım.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_0ff2e81a8dfc6f50",
+    "value": "Servis hizmeti verilmemektedir.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5a03fbfec4af51f8",
+    "value": "Ücretler.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f01f754f2811160f",
+    "value": "Güncel ücret ve kontenjan bilgisi için telefon veya WhatsApp üzerinden bize ulaşın.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_b6f307b40ba0df10",
+    "value": "Merhaba, ön kayıt hakkında bilgi almak istiyorum.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_68a99b786cbab350",
+    "value": "Ön kayıt için yazın",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_87548143ee724842",
+    "value": "Hemen arayın",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_3d022f08530424a9",
+    "value": "Tesisimizi ziyaret edin.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8e35b9096cb2dfbf",
+    "value": "Randevu alarak havuzumuzu görebilir, dersleri gözlemleyebilir ve eğitmenlerimizle tanışabilirsiniz.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_45d099be0fc22d37",
+    "value": "Merhaba, tesisi ziyaret etmek için randevu almak istiyorum.",
+    "groups": [
+      "Enrollment"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Enrollment.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7aab338a186f00d9",
+    "value": "Yüzme kursları, kayıt süreci, ders düzeni ve tesis hakkında sıkça sorulan sorular.",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_58f9de626eaa5ee4",
+    "value": "Sıkça sorulan sorular",
+    "groups": [
+      "Faq",
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_9ce69302c51ea925",
+    "value": "Aklınızdaki",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_acad5bf452aa7d43",
+    "value": "sorular.",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_952c3e1b985a18e8",
+    "value": "Programlar, eğitim süreci, kayıt ve tesis hakkında en çok merak edilenleri derledik.",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e23e2be23f574ed3",
+    "value": "Sorularda ara",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_fd3ba1484630bb18",
+    "value": "Sorularda ara…",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7b104084cb57eeb4",
+    "value": "Soru kategorileri",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f457c2eef461d27a",
+    "value": "Sorunuzu bulamadınız mı?",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5905cf7b68ab0099",
+    "value": "Eğitim koordinatörümüz size yardımcı olsun.",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_b3d57b49ada25043",
+    "value": "Merhaba, bir sorum var.",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_271ca9ba1123ea3f",
+    "value": "Bize sorun",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c8b1ad34dd720419",
+    "value": "” için sonuç bulunamadı.",
+    "groups": [
+      "Faq"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Faq.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f43a65ad826800a3",
+    "value": "Tümü",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": "cats"
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": "[cat, setCat]"
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": "items"
+      },
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_13eb4d3b2591e1ea",
+    "value": "Ata Yüzme Spor Kulübü eğitimlerinden, yarışlarından ve Yakacık Yüzme Havuzu’ndan fotoğraflar.",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_df2ff9b86f7dbfd1",
+    "value": "Kulvardan",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_421cfe119291b9d5",
+    "value": "kareler.",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_793c3460e10bcfda",
+    "value": "Eğitimlerimizden, yarışlardan ve Yakacık Yüzme Havuzu’ndan seçilmiş fotoğraflar.",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1616d676294acf13",
+    "value": "Galeri filtresi",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_530caa8946e3fdd9",
+    "value": "Fotoğraf görüntüleyici",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d4da46a637694e1a",
+    "value": "Önceki fotoğraf",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5c88ebc536a2ba71",
+    "value": "Sonraki fotoğraf",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7b31a9fc4816824b",
+    "value": "Kapat",
+    "groups": [
+      "Gallery"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Gallery.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7619e2dae55fc95f",
+    "value": "Ata Yüzme sporcusu kulvarda sırtüstü yüzüyor",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": "slides"
+      }
+    ]
+  },
+  {
+    "key": "text_88b2938fa3510503",
+    "value": "Yakacık Yüzme Havuzu’nda çıkış bloğunda start pozisyonundaki sporcu",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": "slides"
+      }
+    ]
+  },
+  {
+    "key": "text_fd5172987ff63738",
+    "value": "Ata boneli çocuklar havuzda eğitim sırasında",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": "slides"
+      }
+    ]
+  },
+  {
+    "key": "text_c64ad07ada02fc4b",
+    "value": "Tanıtım",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_0bb4f2ffbbcc123c",
+    "value": "Yakacık Yüzme Havuzu · Kartal",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_eb0df6b007fc6357",
+    "value": "Her yaşta,",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_296afbfbd5117dd5",
+    "value": "bilimsel",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_ce8581195117f2ba",
+    "value": "yüzme eğitimi.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_669a91b60f08ad95",
+    "value": "Türkiye Yüzme Federasyonu’na bağlı Ata Yüzme Spor Kulübü; minik yaştan yetişkinliğe, ilk kulaçtan lisanslı sporculuğa uzanan bir eğitim yolculuğu sunar.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_653f0b279139a098",
+    "value": "Programları İnceleyin",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_29ebe50bc9feb9c7",
+    "value": "Kayıt Süreci",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d5384a6b10231bb4",
+    "value": "Görsel seçimi",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5b619357d7b0460a",
+    "value": "Kartal Yakacık’ta Türkiye Yüzme Federasyonu’na bağlı Ata Yüzme Spor Kulübü: minik, çocuk ve yetişkin yüzme kursları, özel dersler ve performans yüzme.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_343a763e16e3aece",
+    "value": "TYF",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_92e654fd519d3b3f",
+    "value": "Türkiye Yüzme Federasyonu’na bağlı akredite kulüp",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d2b2717cd9963480",
+    "value": "Bir yüzme kursundan çok daha fazlası.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_afa304408b778368",
+    "value": "Ata Yüzme Spor Kulübü, her yaş grubuna bilimsel yüzme eğitimi sunan, sporcu yetiştiren ve ulusal–uluslararası yarışlarda yer alan bir spor kulübüdür.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_6486d0e8bdf5c455",
+    "value": "Yakacık Yüzme Havuzu’ndaki eğitimlerimizde amacımız yalnızca yüzmeyi öğretmek değil; suda güven, disiplin ve sporcu karakteri kazandırmaktır. Her öğrencimiz, seviyesine uygun grupta ve uzman eğitmenlerin yakın takibinde ilerler.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1d24b6be9198b123",
+    "value": "Kulübümüzü tanıyın",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e7529857a64a4da8",
+    "value": "Kısaca kulübümüz",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f3ee63c0b64470f4",
+    "value": "Eğitim programları",
+    "groups": [
+      "Home",
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_df2b0ec04f015fe0",
+    "value": "Her yaşa ve her hedefe",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1449ff4b5d0e926c",
+    "value": "uygun bir program.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d660d3a59cc9cd8c",
+    "value": "Suyla ilk kez tanışan minik öğrencilerden lisanslı sporculara kadar; her programımız yaş, seviye ve hedef esas alınarak planlanır.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f5deccf9f566b8f6",
+    "value": "Programı inceleyin",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_98fa99ea003caec4",
+    "value": "Gelişim yolu",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f85fd56bdd0bcae8",
+    "value": "İlk kulaçtan",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1f50ad1e3a81bb16",
+    "value": "kürsüye.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_11d3bf840b74a394",
+    "value": "Öğrencilerimiz üç aşamalı bir gelişim modeliyle ilerler. Kurslardan mezun olan öğrenciler, antrenör gözlemiyle performans takımına geçebilir.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_d5b155da5b72e3e5",
+    "value": "Performans yüzme programı",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_193e3592bc436941",
+    "value": "Neden Ata Yüzme?",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_6435becf090db6bc",
+    "value": "Güvenle emanet edebileceğiniz bir eğitim anlayışı.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_a023332f19b6b9cc",
+    "value": "Eğitimin niteliği; eğitmen kadrosu, grup büyüklüğü ve sistemli bir gelişim planıyla belirlenir.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e6fd0a9f85f62e17",
+    "value": "Kulvarda emek,",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_ddbf9cbf2766da18",
+    "value": "kürsüde gurur.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_511af3e39f00e827",
+    "value": "Sporcularımız ulusal ve uluslararası yarışlarda Ata Yüzme Spor Kulübü’nü temsil ediyor.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_678b28e6c1d767ec",
+    "value": "Galeriyi görüntüleyin",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c52fe7383dd0966c",
+    "value": "Madalyalı sporcular ve antrenörleri kulüp bayrağıyla",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7a613167e3090b2c",
+    "value": "Ata Yüzme takımı",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e86d95889db6c3f0",
+    "value": "Başlamadan önce merak edilenler.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c489b4ba7323bcff",
+    "value": "Programlar, kayıt süreci ve tesis hakkında en çok sorulan soruları derledik.",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5d83a058e41d21b1",
+    "value": "Tüm soruları görüntüleyin",
+    "groups": [
+      "Home"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Home.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_54862c4b8a11fca6",
+    "value": "Sayfa bulunamadı",
+    "groups": [
+      "NotFound",
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/NotFound.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_cf8883d5805f6695",
+    "value": "Aradığınız sayfa bulunamadı.",
+    "groups": [
+      "NotFound"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/NotFound.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_df337c381dd7407c",
+    "value": "Hata 404",
+    "groups": [
+      "NotFound"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/NotFound.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_0d62e53683b392b9",
+    "value": "Bu kulvar boş görünüyor.",
+    "groups": [
+      "NotFound"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/NotFound.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_083bfed66c874aea",
+    "value": "Aradığınız sayfa taşınmış veya kaldırılmış olabilir. Aşağıdaki bağlantılarla devam edebilirsiniz.",
+    "groups": [
+      "NotFound"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/NotFound.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_573c0bc7e12c57cf",
+    "value": "Ana sayfaya dönün",
+    "groups": [
+      "NotFound"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/NotFound.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f70fcdede05a585e",
+    "value": "Yaş gruplarına göre gelişim",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5c8631570a152fb2",
+    "value": "Antrenman içeriği, sporcunun gelişim dönemine göre planlanır.",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_00e02e01b886aef9",
+    "value": "Program bilgileri",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7516e83c6a255d72",
+    "value": "Güncel ders saatleri, kontenjan ve ücret bilgisi için bizimle iletişime geçin.",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_ee3eade43f6fd49e",
+    "value": "WhatsApp ile bilgi alın",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_8e3bf5c396eebd37",
+    "value": "Diğer programlar",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      },
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_c647ef7d71e9ea4c",
+    "value": "Bunlar da ilginizi çekebilir.",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_71127019b04d6e3b",
+    "value": "Sonraki program",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_1b520bae31c1ae17",
+    "value": "İnceleyin",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_43f43a72f9d710ef",
+    "value": " için ön kayıt.",
+    "groups": [
+      "ProgramDetail"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/ProgramDetail.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_5ba48599b2489cd8",
+    "value": "Minik, çocuk ve yetişkin yüzme kursları; özel yüzme dersleri, performans yüzme ve sağlık amaçlı yüzme programları.",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_4a6419617a9ef874",
+    "value": "Her yaşa, her seviyeye",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_f682a6a4c9ca1418",
+    "value": "uygun bir başlangıç.",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_0bbc403168110e32",
+    "value": "Programlarımız yaş, yüzme seviyesi ve hedef esas alınarak planlanır. Size en uygun programı karşılaştırın veya eğitim koordinatörümüzle birlikte belirleyin.",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_4674fdda06d5ea08",
+    "value": "Serbest stilde nefes alan Ata Yüzme sporcusu",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_79ff6fc4e26d8d6b",
+    "value": "/ 0",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_92741d0791ec3af1",
+    "value": "Program detayları",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_85e7cfe4737a637b",
+    "value": "Hızlı karşılaştırma",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_28e2a9f7c6a4dbc1",
+    "value": "Programlara bir bakışta.",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_13560607007d9d1f",
+    "value": "Program karşılaştırma tablosu",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_a8ee2b2b5c9a1c4e",
+    "value": "Öne çıkan",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_7916c8f0474be4f0",
+    "value": "Bağlantı",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_e2d10268af6efd0a",
+    "value": "Gelişim modeli",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  },
+  {
+    "key": "text_bea2041f5137834b",
+    "value": "Üç aşamalı eğitim sistemi",
+    "groups": [
+      "Programs"
+    ],
+    "locations": [
+      {
+        "file": "src/pages/Programs.tsx",
+        "variable": ""
+      }
+    ]
+  }
+]
