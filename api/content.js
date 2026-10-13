@@ -1,3 +1,4 @@
+import blogIndex from './blog-index.json' with { type: 'json' };
 import { createHmac, timingSafeEqual, randomBytes, createHash } from 'node:crypto';
 import { get, put, BlobPreconditionFailedError } from '@vercel/blob';
 const CONTENT='site/content.json';
@@ -13,6 +14,19 @@ function json(res,status,data){res.status(status).json(data);}
 async function read(){const blob=await get(CONTENT,{access:'private',useCache:false});if(!blob)return {data:empty(),etag:null};return {data:await new Response(blob.stream).json(),etag:blob.blob.etag};}
 function validImage(value){return typeof value==='string'&&(/^\/api\/media\?name=[a-f0-9]{32}\.(jpg|png|webp|gif)$/.test(value)||/^\/(img\/[a-z0-9-]+\.webp|assets\/[a-z0-9.-]+|favicon-64\.png|apple-touch-icon\.png|og-image\.jpg)$/.test(value));}
 function imageType(buffer){if(buffer.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])))return ['png','image/png'];if(buffer[0]===255&&buffer[1]===216&&buffer[2]===255)return ['jpg','image/jpeg'];if(['GIF87a','GIF89a'].includes(buffer.subarray(0,6).toString()))return ['gif','image/gif'];if(buffer.subarray(0,4).toString()==='RIFF'&&buffer.subarray(8,12).toString()==='WEBP')return ['webp','image/webp'];return null;}
+function validBlogs(blogs){
+ if(!blogs||typeof blogs!=='object'||Array.isArray(blogs)||Object.keys(blogs).length>1000)return false;
+ const slugs=new Map(blogIndex.posts.map(p=>[p.id,p.slug]));
+ for(const [key,p] of Object.entries(blogs)){
+  if(!p||!Number.isSafeInteger(p.id)||p.id<1||String(p.id)!==key||typeof p.title!=='string'||!p.title.trim()||p.title.length>500||typeof p.slug!=='string'||!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.slug)||p.slug.length>200)return false;
+  for(const field of ['excerpt','html','text','image','imageAlt','modified','source'])if(typeof p[field]!=='string'||p[field].length>(['html','text'].includes(field)?200000:5000))return false;
+  if(typeof p.date!=='string'||!/^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(p.date)||!Number.isFinite(Date.parse(p.date))||!Array.isArray(p.categories)||!p.categories.length||!p.categories.every(c=>blogIndex.categories.includes(c))||!Number.isInteger(p.minutes)||p.minutes<1||p.minutes>1000)return false;
+  if(p.image&&!/^(https?:\/\/|\/(?!\/))[^\s<>"']+$/i.test(p.image))return false;
+  if(/<(script|iframe|object|embed|form|input|button|link|meta|base|svg|math)\b|\bon[a-z]+\s*=|(?:javascript|vbscript|data)\s*:/i.test(p.html))return false;
+  slugs.set(p.id,p.slug);
+ }
+ return new Set(slugs.values()).size===slugs.size;
+}
 export default async function handler(req,res){
  res.setHeader('Cache-Control','no-store');res.setHeader('X-Content-Type-Options','nosniff');
  try{
@@ -42,8 +56,9 @@ export default async function handler(req,res){
  }
  if(action==='save'){
   for(const kind of ['texts','images']){if(!body[kind]||typeof body[kind]!=='object'||Array.isArray(body[kind])||Object.keys(body[kind]).length>2000)return json(res,422,{error:'İçerik biçimi geçersiz.'});for(const [key,value]of Object.entries(body[kind]))if(key.length>200||typeof value!=='string'||value.length>20000||(kind==='images'&&!validImage(value)))return json(res,422,{error:'İçerik değeri geçersiz.'});}
+  if(body.blogs!==undefined&&!validBlogs(body.blogs))return json(res,422,{error:"Blog bilgileri geçersiz. Başlık, benzersiz URL, tarih, kategori ve içerik alanlarını kontrol edin."});
   const previous=await read();if(body.revision!==previous.data.revision)return json(res,409,{error:'İçerik başka bir oturumda değişti. Sayfayı yenileyin.'});
-  const data={texts:body.texts,images:body.images,revision:previous.data.revision+1,updatedAt:new Date().toISOString()};
+  const data={texts:body.texts,images:body.images,blogs:body.blogs??previous.data.blogs??{},revision:previous.data.revision+1,updatedAt:new Date().toISOString()};
   await put(CONTENT,JSON.stringify(data),{access:'private',addRandomSuffix:false,allowOverwrite:!!previous.etag,contentType:'application/json',...(previous.etag?{ifMatch:previous.etag}:{})});return json(res,200,data);
  }
  return json(res,404,{error:'İşlem bulunamadı.'});

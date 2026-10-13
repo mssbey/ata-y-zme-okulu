@@ -1,11 +1,13 @@
 import { useEffect, useMemo } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import archive from '../data/blog.json';
+import { getBlogPosts } from '../content/store';
 import { CtaBand, Eyebrow, Icon, Img, usePageMeta, useReveal } from '../components/ui';
 import NotFound from './NotFound';
 import './blog.css';
 
-const { posts, categories } = archive;
+const { categories } = archive;
+const posts = getBlogPosts();
 type Post = typeof posts[number];
 const date = (value: string) => new Date(value).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' });
 const category = (p: Post) => categories.find(c => p.categories.includes(c.id))!;
@@ -58,6 +60,8 @@ export function BlogDetail() {
   const prepared = useMemo(() => {
     if (!post) return { html: '', headings: [] as { id: string; text: string }[] };
     const doc = new DOMParser().parseFromString(post.html, 'text/html');
+    doc.querySelectorAll('script,style,iframe,object,embed,form,input,button,link,meta,base,svg,math').forEach(el => el.remove());
+    doc.querySelectorAll('*').forEach(el => { for (const attr of [...el.attributes]) if (attr.name.startsWith('on') || ['style','srcdoc'].includes(attr.name) || (['href','src'].includes(attr.name) && !/^(https?:\/\/|\/(?!\/)|#)/i.test(attr.value))) el.removeAttribute(attr.name); });
     doc.querySelectorAll('h1').forEach(el => { const heading = doc.createElement('h2'); heading.innerHTML = el.innerHTML; el.replaceWith(heading); });
     const headings = Array.from(doc.querySelectorAll('h2,h3')).map((el, i) => { el.id = `bolum-${i + 1}`; return { id: el.id, text: el.textContent || '' }; });
     return { html: doc.body.innerHTML, headings };
