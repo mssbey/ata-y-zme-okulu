@@ -171,6 +171,7 @@ function Footer() {
         <div>
           <h2 className="footer-title">{contentText('text_4880b93c7b77b50a', "Kurumsal")}</h2>
           <ul className="footer-links">
+            <li><Link to="/blog">Blog</Link></li>
             <li><Link to="/kurumsal">{contentText('text_275c6ddbb351b57c', "Hakkımızda")}</Link></li>
             <li><Link to="/kayit">{contentText('text_55d268039cc995c6', "Kayıt & Üyelik")}</Link></li>
             <li><Link to="/galeri">{contentText('text_41533b6d0d098341', "Galeri")}</Link></li>

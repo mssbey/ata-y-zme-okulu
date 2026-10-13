@@ -84,3 +84,9 @@ SSS’de 16 soru–cevap çifti birlikte düzenlenir. Ortak içerikler kullanıl
 `node qa-content-audit.cjs`, yerel sunucularda 14 sayfa ve 6 program detayını, SSS düzenleme/arama/ana sayfa eşleşmesini, galeri filtreleri/lightbox’ı, görselleri, iletişim bağlantılarını ve mobil paneli kontrol eder. Test içeriğini sonunda geri yükler. Yerel test sırasında eşzamanlı düzenleme yapmayın. `node qa-live-login.cjs`, canlı giriş, aynı içeriğin kalıcı kaydı, görsel yükleme/okuma, yetki/CSRF ve boş API yanıtı hata mesajını sınar. Testler .qa-tools altındaki Playwright kurulumunu kullanır.
 
 Metaveriler JavaScript üzerinden güncellenir; JavaScript çalıştırmayan sosyal önizleme botları index.html içindeki başlangıç metaverilerini okuyabilir.
+
+## Blog
+
+`/blog` sayfasında Yakacık Yüzme Havuzu blog arşivindeki 34 yazı; arama, dört konu filtresi ve sayfalama ile sunulur. Kaynakta alt kategoriler olmadığı için konu başlıkları içeriklere göre düzenlenmiştir. Yazılar `/blog/:slug` adresinde açılır; kaynak sitedeki eski yazı adresleri yeni sayfalara yönlenir. Özgün yayın tarihleri, metinler ve görseller korunur. Blog verisi `src/data/blog.json`, görseller `public/assets/blog` klasöründedir. Blog yazıları mevcut admin editörüne bağlı değildir.
+
+Yetkili kaynak aktarımını yenilemek için BeautifulSoup4 kurulu Python ortamında `python scripts/import-blog.py` çalıştırın. Aktarım raporu `qa/blog-import-report.json` dosyasına yazılır. `node qa-blog.cjs`, 4173 portundaki yerel önizlemede tüm yazıları, görselleri, filtreleri, aramayı, sayfalamayı ve mobil taşmaları kontrol eder.

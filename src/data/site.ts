@@ -27,6 +27,7 @@ export const nav: NavItem[] = [
   { label: contentText('text_8ec2bb837a16ca7a', "Programlar"), to: '/programlar' },
   { label: contentText('text_55d268039cc995c6', "Kayıt & Üyelik"), to: '/kayit' },
   { label: contentText('text_41533b6d0d098341', "Galeri"), to: '/galeri' },
+  { label: 'Blog', to: '/blog' },
   { label: contentText('text_5ba17459505b7261', "S.S.S."), to: '/sss' },
   { label: contentText('text_5e948ad2e2df8515', "İletişim"), to: '/iletisim' },
 ];
