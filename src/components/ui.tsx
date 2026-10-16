@@ -1,3 +1,4 @@
+import { RichText } from '../content/rich';
 import { imageUrl, imageOverride } from '../content/store';
 import { contentText } from '../content/store';
 import { useEffect, type ReactNode, type SVGProps } from 'react';
@@ -58,7 +59,7 @@ export function Img({ name, alt, className, sizes = '(max-width: 800px) 100vw, 5
       src={imageUrl(name)}
       srcSet={imageOverride(name) ? undefined : `/img/sm/${name}.webp 760w, /img/${name}.webp ${w}w`}
       sizes={sizes}
-      alt={alt}
+      alt={contentText(`alt:${name}`,alt)}
       width={w}
       height={h}
       loading={priority ? 'eager' : 'lazy'}
@@ -71,19 +72,19 @@ export function Img({ name, alt, className, sizes = '(max-width: 800px) 100vw, 5
 
 /* ---------- Tipografi ---------- */
 export function Eyebrow({ children, light }: { children: ReactNode; light?: boolean }) {
-  return <p className={'eyebrow' + (light ? ' eyebrow-light' : '')}>{children}</p>;
+  return <p className={'eyebrow' + (light ? ' eyebrow-light' : '')}>{typeof children==='string'?<RichText value={children}/>:children}</p>;
 }
 
 export function SectionHeading({ eyebrow, title, lead, light, align = 'left', action }: { eyebrow: string; title: ReactNode; lead?: ReactNode; light?: boolean; align?: 'left' | 'center' | 'split'; action?: ReactNode }) {
   return (
     <div className={`section-heading reveal is-${align}`}>
       <div>
-        <Eyebrow light={light}>{eyebrow}</Eyebrow>
-        <h2 className="display-2">{title}</h2>
+        <Eyebrow light={light}>{typeof eyebrow==='string'?<RichText value={eyebrow}/> : eyebrow}</Eyebrow>
+        <h2 className="display-2">{typeof title==='string'?<RichText value={title}/> : title}</h2>
       </div>
       {(lead || action) && (
         <div className="section-heading-side">
-          {lead && <p className="lead">{lead}</p>}
+          {lead && <p className="lead">{typeof lead==='string'?<RichText value={lead}/> : lead}</p>}
           {action}
         </div>
       )}
@@ -94,7 +95,7 @@ export function SectionHeading({ eyebrow, title, lead, light, align = 'left', ac
 export function ArrowLink({ to, children, light }: { to: string; children: ReactNode; light?: boolean }) {
   return (
     <Link className={'arrow-link' + (light ? ' is-light' : '')} to={to}>
-      <span>{children}</span>
+      <span>{typeof children==='string'?<RichText value={children}/>:children}</span>
       <Icon name="arrow" size={18} />
     </Link>
   );
@@ -109,15 +110,15 @@ export function PageHero({ eyebrow, title, lead, image, alt, crumbs, position }:
       <div className="wrap page-hero-inner">
         <nav className="breadcrumbs" aria-label={contentText('text_8e43e283e33a0c1c', "Sayfa konumu")}>
           <ol>
-            <li><Link to="/">{contentText('text_dcd2f7f89bdc791d', "Ana Sayfa")}</Link></li>
+            <li><Link to="/"><RichText value={contentText('text_dcd2f7f89bdc791d', "Ana Sayfa")}/></Link></li>
             {crumbs.map((c) => (
-              <li key={c.label}>{c.to ? <Link to={c.to}>{c.label}</Link> : <span aria-current="page">{c.label}</span>}</li>
+              <li key={c.label}>{c.to ? <Link to={c.to}><RichText value={c.label}/></Link> : <span aria-current="page"><RichText value={c.label}/></span>}</li>
             ))}
           </ol>
         </nav>
-        <Eyebrow light>{eyebrow}</Eyebrow>
-        <h1 className="display-1">{title}</h1>
-        {lead && <p className="page-hero-lead">{lead}</p>}
+        <Eyebrow light>{typeof eyebrow==='string'?<RichText value={eyebrow}/> : eyebrow}</Eyebrow>
+        <h1 className="display-1">{typeof title==='string'?<RichText value={title}/> : title}</h1>
+        {lead && <p className="page-hero-lead">{typeof lead==='string'?<RichText value={lead}/> : lead}</p>}
       </div>
     </section>
   );
@@ -129,13 +130,13 @@ export function CtaBand({ title = contentText('text_52ef5a4de13e5d6b', "Size uyg
     <section className="cta-band">
       <div className="wrap cta-band-inner reveal">
         <div>
-          <Eyebrow light>{contentText('text_8b800e27d040867c', "Ön kayıt ve bilgi")}</Eyebrow>
-          <h2 className="display-2">{title}</h2>
-          <p>{text}</p>
+          <Eyebrow light><RichText value={contentText('text_8b800e27d040867c', "Ön kayıt ve bilgi")}/></Eyebrow>
+          <h2 className="display-2">{typeof title==='string'?<RichText value={title}/> : title}</h2>
+          <p>{typeof text==='string'?<RichText value={text}/> : text}</p>
         </div>
         <div className="cta-band-actions">
           <a className="btn btn-light" href={whatsapp(message)} target="_blank" rel="noreferrer">
-            <WhatsAppIcon size={18} /> {contentText('text_b9077824e99b6f85', "WhatsApp ile yazın")}</a>
+            <WhatsAppIcon size={18} /> <RichText value={contentText('text_b9077824e99b6f85', "WhatsApp ile yazın")}/></a>
           <a className="btn btn-ghost-light" href={brand.tel}>
             <Icon name="phone" size={18} /> {brand.phone}
           </a>
@@ -147,15 +148,20 @@ export function CtaBand({ title = contentText('text_52ef5a4de13e5d6b', "Size uyg
 
 /* ---------- Sayfa başlığı / açıklaması ---------- */
 export function usePageMeta(title: string, description: string) {
+  const { pathname } = useLocation();
   useEffect(() => {
-    document.title = title ? `${title} | ${brand.name}` : `${brand.name} | ${brand.facility}`;
+    const plain=(value:string)=>new DOMParser().parseFromString(value,'text/html').body.textContent??'';
+    title=plain(title);
+    description=plain(description);
+    document.title = contentText(`seo:title:${pathname}`, '') || (title ? `${typeof title==='string'?<RichText value={title}/> : title} | ${brand.name}` : `${brand.name} | ${brand.facility}`);
+    description = contentText(`seo:description:${pathname}`, '') || description;
     document.querySelector('meta[name="description"]')?.setAttribute('content', description);
     document.querySelector('meta[property="og:title"]')?.setAttribute('content', document.title);
     document.querySelector('meta[property="og:site_name"]')?.setAttribute('content', brand.name);
     document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
     const schema = document.querySelector('script[type="application/ld+json"]');
     if (schema) { try { const data=JSON.parse(schema.textContent??'{}');Object.assign(data,{name:brand.name,alternateName:brand.facility,telephone:brand.tel.replace('tel:',''),email:brand.email,logo:imageUrl('/assets/ata-logo.svg')});data.address.streetAddress=brand.street;data.address.addressLocality=brand.city;schema.textContent=JSON.stringify(data); } catch { /* Keep existing metadata if no club schema exists. */ } }
-  }, [title, description]);
+  }, [title, description, pathname]);
 }
 
 /* ---------- Görünür olunca beliren öğeler ---------- */

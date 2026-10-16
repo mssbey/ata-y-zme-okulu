@@ -90,3 +90,14 @@ Metaveriler JavaScript üzerinden güncellenir; JavaScript çalıştırmayan sos
 `/blog` sayfasında Yakacık Yüzme Havuzu blog arşivindeki 34 yazı; arama, dört konu filtresi ve sayfalama ile sunulur. Kaynakta alt kategoriler olmadığı için konu başlıkları içeriklere göre düzenlenmiştir. Yazılar `/blog/:slug` adresinde açılır; kaynak sitedeki eski yazı adresleri yeni sayfalara yönlenir. Özgün yayın tarihleri, metinler ve görseller korunur. Blog verisi `src/data/blog.json`, görseller `public/assets/blog` klasöründedir. Blog yazıları mevcut admin editörüne bağlı değildir.
 
 Yetkili kaynak aktarımını yenilemek için BeautifulSoup4 kurulu Python ortamında `python scripts/import-blog.py` çalıştırın. Aktarım raporu `qa/blog-import-report.json` dosyasına yazılır. `node qa-blog.cjs`, 4173 portundaki yerel önizlemede tüm yazıları, görselleri, filtreleri, aramayı, sayfalamayı ve mobil taşmaları kontrol eder.
+
+
+## Admin paneli revizeleri
+
+- Metin alanlarında kalın, italik, altı çizili biçimlendirme ve HTML kaynak görünümü; blog editöründe ayrıca madde ve numaralı liste araçları vardır. HTML, sitede izin verilen etiketlerle güvenli biçimde gösterilir.
+- **SEO & ölçümleme** bölümünde ana sayfalar, program detayları ve blog yazıları için ayrı SEO başlığı ve meta açıklama belirlenebilir. Boş alanlarda mevcut değerler korunur. Başlık aynen kullanılır; marka adı otomatik eklenmez.
+- Search Console doğrulama kodu veya meta etiketi ve Google Analytics `G-...` kimliği veya etiket kodu girilebilir. Yapıştırılan etiketlerden yalnızca doğrulama değeri ve ölçüm kimliği alınır. Yönetim panelinde Analytics başlatılmaz.
+- Görsel kütüphanesinde görsel başına alt metin; blog düzenleyicide kapak alt metni bulunur.
+- **Slider yönetimi** bölümünde üç slaytın görseli, alt metni, başlığı ve açıklaması düzenlenir. Boş slayt metinleri mevcut ana sayfa metnini kullanır.
+- JPG, PNG ve WebP yüklemeleri tarayıcıda en fazla 1920 piksele küçültülüp WebP olarak optimize edilir; küçük dosyalarda boyut avantajı yoksa kaynak korunur. Kaynak dosya sınırı 30 MB, sunucuya gönderilen dosya sınırı 3 MB'dir. Animasyonu korumak için GIF sıkıştırılmaz ve en fazla 3 MB kabul edilir. Bu işlem geçmişte yüklenmiş görselleri değiştirmez.
+- Kontrol: `npm run build` ve yerel geliştirme sunucusunda `node qa-admin-revisions.cjs`. Revizyon testi geçici içerikleri sonunda geri yükler.

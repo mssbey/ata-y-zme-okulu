@@ -1,3 +1,4 @@
+import { RichText } from '../content/rich';
 import { imageUrl } from '../content/store';
 import { contentText } from '../content/store';
 import { useCallback, useEffect, useRef, useState } from 'react';
@@ -52,7 +53,7 @@ export default function Gallery() {
     <>
       <PageHero
         eyebrow={contentText('text_41533b6d0d098341', "Galeri")}
-        title={<>{contentText('text_df2ff9b86f7dbfd1', "Kulvardan")}<br />{contentText('text_421cfe119291b9d5', "kareler.")}</>}
+        title={<><RichText value={contentText('text_df2ff9b86f7dbfd1', "Kulvardan")}/><br /><RichText value={contentText('text_421cfe119291b9d5', "kareler.")}/></>}
         lead={contentText('text_793c3460e10bcfda', "Eğitimlerimizden, yarışlardan ve Yakacık Yüzme Havuzu’ndan seçilmiş fotoğraflar.")}
         image="hero-kelebek"
         alt={contentText('text_24f5fff18d1f3975', "Kelebek stilinde yüzen genç sporcu")}
@@ -90,7 +91,7 @@ export default function Gallery() {
         {item && (
           <>
             <figure>
-              <img src={imageUrl(item.image)} alt={item.alt} />
+              <img src={imageUrl(item.image)} alt={contentText(`alt:${item.image}`,item.alt)} />
               <figcaption>
                 <span>{item.alt}</span>
                 <span>{(current ?? 0) + 1} {"/"}{items.length}</span>

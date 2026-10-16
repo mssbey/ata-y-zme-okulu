@@ -21,3 +21,12 @@ export function getBlogPosts(data: ContentData = current): BlogPost[] {
  for (const post of Object.values(data.blogs ?? {})) posts.set(post.id, post);
  return [...posts.values()].sort((a,b) => b.date.localeCompare(a.date));
 }
+
+export function applyTracking() {
+ const verification=current.texts['seo:verification']??'';
+ const code=verification.includes('<')?new DOMParser().parseFromString(verification,'text/html').querySelector('meta[name="google-site-verification"]')?.getAttribute('content')??'':verification.trim();
+ if(code){const meta=document.createElement('meta');meta.name='google-site-verification';meta.content=code;document.head.append(meta);}
+ const measurement=(current.texts['seo:analytics']??'').match(/\bG-[A-Z0-9]{4,20}\b/)?.[0];
+ if(measurement){const script=document.createElement('script');script.async=true;script.src='https://www.googletagmanager.com/gtag/js?id='+measurement;document.head.append(script);
+ const w=window as unknown as {dataLayer:unknown[];gtag:(...args:unknown[])=>void};w.dataLayer=w.dataLayer||[];w.gtag=function(){w.dataLayer.push(arguments);};w.gtag('js',new Date());w.gtag('config',measurement);}
+}
