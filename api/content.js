@@ -57,9 +57,15 @@ export default async function handler(req,res){
  if(action==='save'){
   for(const kind of ['texts','images']){if(!body[kind]||typeof body[kind]!=='object'||Array.isArray(body[kind])||Object.keys(body[kind]).length>2000)return json(res,422,{error:'İçerik biçimi geçersiz.'});for(const [key,value]of Object.entries(body[kind]))if(key.length>200||typeof value!=='string'||value.length>20000||(kind==='images'&&!validImage(value)))return json(res,422,{error:'İçerik değeri geçersiz.'});}
   if(body.blogs!==undefined&&!validBlogs(body.blogs))return json(res,422,{error:"Blog bilgileri geçersiz. Başlık, benzersiz URL, tarih, kategori ve içerik alanlarını kontrol edin."});
-  const previous=await read();if(body.revision!==previous.data.revision)return json(res,409,{error:'İçerik başka bir oturumda değişti. Sayfayı yenileyin.'});
-  const data={texts:body.texts,images:body.images,blogs:body.blogs??previous.data.blogs??{},revision:previous.data.revision+1,updatedAt:new Date().toISOString()};
-  await put(CONTENT,JSON.stringify(data),{access:'private',addRandomSuffix:false,allowOverwrite:!!previous.etag,contentType:'application/json',...(previous.etag?{ifMatch:previous.etag}:{})});return json(res,200,data);
+  // A stale or mismatched ETag must not block a save when the revision is unchanged.
+  for(let attempt=0;attempt<3;attempt++){
+   const previous=await read();if(body.revision!==previous.data.revision)return json(res,409,{error:'İçerik başka bir oturumda değişti.',current:previous.data});
+   const data={texts:body.texts,images:body.images,blogs:body.blogs??previous.data.blogs??{},revision:previous.data.revision+1,updatedAt:new Date().toISOString()};
+   const conditional=previous.etag&&attempt<2?{ifMatch:previous.etag}:{};
+   try{await put(CONTENT,JSON.stringify(data),{access:'private',addRandomSuffix:false,allowOverwrite:!!previous.etag,contentType:'application/json',...conditional});return json(res,200,data);}
+   catch(error){if(!(error instanceof BlobPreconditionFailedError))throw error;}
+  }
+  return json(res,409,{error:'İçerik başka bir oturumda değişti.',current:(await read()).data});
  }
  return json(res,404,{error:'İşlem bulunamadı.'});
  }catch(error){if(error instanceof BlobPreconditionFailedError)return json(res,409,{error:'İçerik başka bir oturumda değişti. Sayfayı yenileyin.'});console.error('Admin API:',error.name);return json(res,500,{error:'Yönetim işlemi tamamlanamadı. Lütfen tekrar deneyin.'});}

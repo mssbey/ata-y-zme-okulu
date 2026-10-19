@@ -4,7 +4,7 @@ import { optimizeImage } from '../content/optimize';
 import AdminSettings from './AdminSettings';
 import { readApiResponse } from '../content/api';
 import faqSchema from '../content/faq-schema.json';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import catalog from '../content/catalog.json';
 import { getContent, setContent, type ContentData } from '../content/store';
 import { imageSizes } from '../data/images';
@@ -14,20 +14,26 @@ import { getBlogPosts } from '../content/store';
 const labels: Record<string,string> = { Home:'Ana sayfa', About:'Kurumsal', Programs:'Programlar', ProgramDetail:'Program detayları', Enrollment:'Kayıt & üyelik', Gallery:'Galeri', Faq:'Sıkça sorulan sorular', Contact:'İletişim', NotFound:'404 sayfası', Layout:'Menü & alt alan', ui:'Ortak alanlar', all:'Tüm içerikler' };
 const groups = ['Home','About','Programs','ProgramDetail','Enrollment','Gallery','Faq','Contact','Layout','ui','Genel içerik','NotFound'];
 const plainText = (value:string) => value.replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();
+// Apply only the fields changed since `base` on top of the latest published content.
+function mergeChanges<T>(latest:Record<string,T>={},local:Record<string,T>={},base:Record<string,T>={}){const out={...latest};for(const k of new Set([...Object.keys(local),...Object.keys(base)]))if(JSON.stringify(local[k])!==JSON.stringify(base[k])){if(local[k]===undefined)delete out[k];else out[k]=local[k];}return out;}
+function rebase(latest:ContentData,local:ContentData,base:ContentData):ContentData{return {...latest,texts:mergeChanges(latest.texts,local.texts,base.texts),images:mergeChanges(latest.images,local.images,base.images),blogs:mergeChanges(latest.blogs,local.blogs,base.blogs)};}
 const faqKeys = new Set(faqSchema.flatMap(f=>[f.q,f.a]));
 const entryByKey = Object.fromEntries(catalog.map(e=>[e.key,e]));
 const images = [...Object.keys(imageSizes), '/assets/ata-logo.svg', '/assets/ata-logo-light.svg', '/assets/ata-amblem.png', '/assets/ata-wordmark-light.svg', '/favicon-64.png', '/apple-touch-icon.png', '/og-image.jpg'];
 const mediaLabels:Record<string,string> = {'/assets/ata-logo.svg':'Ana logo','/assets/ata-logo-light.svg':'Açık renk logo','/assets/ata-amblem.png':'Açılış amblemi','/assets/ata-wordmark-light.svg':'Açılış logosu','/favicon-64.png':'Tarayıcı simgesi','/apple-touch-icon.png':'Mobil uygulama simgesi','/og-image.jpg':'Paylaşım görseli'};
 export default function Admin() {
  const [session,setSession]=useState<{authenticated:boolean;csrf:string}|null>(null);
- const [password,setPassword]=useState(''); const [data,setData]=useState<ContentData>(getContent);
+ const [password,setPassword]=useState(''); const [data,setData]=useState<ContentData>(getContent); const base=useRef<ContentData>(getContent());
  const [group,setGroup]=useState('Home'); const [tab,setTab]=useState('texts'); const [query,setQuery]=useState('');
  const [status,setStatus]=useState(''); const [busy,setBusy]=useState(false); const [dirty,setDirty]=useState(false);
  useEffect(()=>{fetch('/api/content?action=session').then(readApiResponse).then(result=>{if(typeof result.authenticated!=='boolean'||typeof result.csrf!=='string')throw Error('Yönetim API’si bulunamadı. Sunucu yapılandırmasını kontrol edin.');setSession({authenticated:result.authenticated,csrf:result.csrf});}).catch(e=>{setSession({authenticated:false,csrf:''});setStatus((e as Error).message);});},[]);
  useEffect(()=>{const warn=(e:BeforeUnloadEvent)=>{if(dirty){e.preventDefault();}};window.addEventListener('beforeunload',warn);return()=>window.removeEventListener('beforeunload',warn);},[dirty]);
- async function request(action:string,body:unknown){const r=await fetch(`/api/content?action=${action}`,{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':session?.csrf??''},body:JSON.stringify(body)});return await readApiResponse(r);}
+ function post(action:string,body:unknown){return fetch(`/api/content?action=${action}`,{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':session?.csrf??''},body:JSON.stringify(body)});}
+ async function request(action:string,body:unknown){return await readApiResponse(await post(action,body));}
  async function login(e:React.FormEvent){e.preventDefault();setBusy(true);try{const result=await request('login',{password});if(result.authenticated!==true||typeof result.csrf!=='string')throw Error('Giriş yanıtı doğrulanamadı.');setSession({authenticated:true,csrf:result.csrf});setPassword('');setStatus('');}catch(e){setStatus((e as Error).message);}finally{setBusy(false);}}
- async function save(){setBusy(true);try{const result=await request('save',data);if(!result.texts||!result.images||typeof result.revision!=='number')throw Error('Kayıt yanıtı doğrulanamadı.');setData(result as ContentData);setContent(result as ContentData);localStorage.setItem('ata-content-published',String(Date.now()));setDirty(false);setStatus('Değişiklikler yayınlandı. Siteniz güncel.');}catch(e){setStatus((e as Error).message);}finally{setBusy(false);}}
+ async function save(){setBusy(true);try{let response=await post('save',data);
+  if(response.status===409){const conflict=await response.clone().json().catch(()=>null);const latest=conflict?.current?.texts?conflict.current:await readApiResponse(await fetch('/api/content',{cache:'no-store'}));response=await post('save',rebase(latest as ContentData,data,base.current));}
+  const result=await readApiResponse(response);if(!result.texts||!result.images||typeof result.revision!=='number')throw Error('Kayıt yanıtı doğrulanamadı.');base.current=structuredClone(result as ContentData);setData(result as ContentData);setContent(result as ContentData);localStorage.setItem('ata-content-published',String(Date.now()));setDirty(false);setStatus('Değişiklikler yayınlandı. Siteniz güncel.');}catch(e){setStatus((e as Error).message);}finally{setBusy(false);}}
  function change(key:string,value:string,kind:'texts'|'images'){setData(d=>({...d,[kind]:{...d[kind],[key]:value}}));setDirty(true);setStatus('');}
  function reset(key:string,kind:'texts'|'images'){setData(d=>{const copy={...d[kind]};delete copy[key];return {...d,[kind]:copy};});setDirty(true);}
  async function upload(key:string,file?:File){if(!file)return;setBusy(true);try{file=await optimizeImage(file);const image=await new Promise<string>((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(String(reader.result).split(',')[1]);reader.onerror=()=>reject(Error('Görsel okunamadı.'));reader.readAsDataURL(file!);});const r=await fetch('/api/content?action=upload',{method:'POST',headers:{'Content-Type':'application/json','X-CSRF-Token':session?.csrf??''},body:JSON.stringify({image})});const result=await readApiResponse(r);if(typeof result.url!=='string')throw Error('Görsel yükleme yanıtı doğrulanamadı.');change(key,result.url,'images');setStatus('Görsel hazır. Sitede göstermek için değişiklikleri yayınlayın.');}catch(e){setStatus((e as Error).message);}finally{setBusy(false);}}
