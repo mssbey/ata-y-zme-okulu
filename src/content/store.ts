@@ -5,6 +5,7 @@ let current: ContentData = { texts: {}, images: {}, revision: 0 };
 export async function loadContent() {
   try { const response = await fetch('/api/content', { cache: 'no-store' }); if (response.ok) { const data = await response.json(); if (data.texts && data.images) current = data; } } catch { /* Original content remains available when offline. */ }
 }
+export function setContent(data: ContentData) { current = structuredClone(data); applyContentMedia(); }
 export function contentText(key: string, fallback: string): string { return current.texts[key] ?? fallback; }
 export function imageUrl(name: string): string { return current.images[name] ?? (name.startsWith('/') ? name : `/img/${name}.webp`); }
 export function imageOverride(name: string): boolean { return Boolean(current.images[name]); }

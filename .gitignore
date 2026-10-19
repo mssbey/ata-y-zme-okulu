@@ -12,3 +12,7 @@ public/uploads/*
 !public/uploads/.htaccess
 .vercel
 .env*
+qa-blog.cjs
+qa-blog-admin.cjs
+qa-content-editing.cjs
+qa-visual-edit.cjs

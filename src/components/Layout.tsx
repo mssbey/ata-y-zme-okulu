@@ -1,10 +1,13 @@
 import { RichText } from '../content/rich';
-import { imageUrl } from '../content/store';
-import { contentText } from '../content/store';
+import { loadContent, imageUrl } from '../content/store';
+import { getContent, contentText } from '../content/store';
 import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import { brand, mapsLink, nav, programs, whatsapp } from '../data/site';
 import { Icon, Img, WhatsAppIcon, useReveal } from './ui';
+
+window.addEventListener('storage', event => { if(event.key==='ata-content-published' && !location.pathname.startsWith('/admin')) window.location.reload(); });
+window.addEventListener('focus', () => { if(location.pathname.startsWith('/admin'))return; const before=JSON.stringify(getContent()); void loadContent().then(()=>{if(before!==JSON.stringify(getContent()))window.location.reload();}); });
 
 function Logo({ light }: { light?: boolean }) {
   return (
